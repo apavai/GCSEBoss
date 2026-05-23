@@ -1,0 +1,5 @@
+name = "noisy-darkness-2d17"
+compatibility_date = "2024-01-01"
+
+[assets]
+directory = "."
