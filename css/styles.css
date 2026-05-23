@@ -1008,10 +1008,36 @@ main.blog-post {
 .blog-post-body a { color: var(--brand); }
 .blog-post-body a:hover { text-decoration: underline; }
 .blog-post-body strong { font-weight: 600; }
-.blog-post-footer {
-  margin-top: 48px;
-  padding-top: 32px;
-  border-top: 1px solid var(--line);
+.blog-post-back {
+  margin-top: 40px;
+  margin-bottom: 32px;
+}
+
+.blog-cta-banner {
+  margin-top: 8px;
+  padding: 36px 32px;
+  text-align: center;
+  background: linear-gradient(135deg, var(--brand-soft) 0%, #f0f8fd 100%);
+  border: 1px solid rgba(46, 168, 224, 0.25);
+  border-radius: 20px;
+  box-shadow: 0 16px 40px -16px rgba(46, 168, 224, 0.2);
+}
+.blog-cta-heading {
+  font-size: clamp(20px, 3vw, 24px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+.blog-cta-banner .app-store-badge {
+  margin: 0 auto;
+}
+.blog-cta-note {
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 500;
 }
 
 @media (max-width: 640px) {
