@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GCSE revision built around your exam specification. Every spec point, every board. AI explanations, practice questions, and a parent dashboard. iPhone only." />
+  <meta property="og:title" content="GCSE Boss — Built around your exam spec" />
+  <meta property="og:description" content="Every GCSE specification point, every UK exam board. AI explanations, practice questions, and a parent dashboard." />
+  <link rel="icon" type="image/png" href="images/logo.png" />
+  <title>GCSE Boss — Built around your exam spec</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand-mark">
+      <img src="images/GCSEBossv3.png" alt="GCSE Boss" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#parents">Parents</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#pricing" class="nav-cta">Get the app</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <h1>
+          <span>GCSE Revision</span>
+          <em>Built Around You.</em>
+        </h1>
+        <p class="hero-sub">
+          Every specification point, every UK exam board. AI explanations,
+          practice questions, and a parent dashboard that actually shows what's happening.
+        </p>
+
+        <a href="#" class="app-store-badge" aria-label="Download on the App Store">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+          <div>
+            <div class="top">Download on the</div>
+            <div class="bottom">App Store</div>
+          </div>
+        </a>
+
+        <span class="hero-status">Coming soon · iPhone only</span>
+      </div>
+
+      <div class="iphone-stage">
+        <svg class="phone-svg" viewBox="0 0 334 715" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="homeDashTitle">
+          <title id="homeDashTitle">GCSE Boss home dashboard on iPhone</title>
+
+          <!-- iPhone 16 Pro bezel (slim) -->
+          <rect x="0" y="0" width="334" height="715" rx="56" fill="#1a1a1c"/>
+          <rect x="6" y="6" width="322" height="703" rx="50" fill="#f7f9fc"/>
+
+          <!-- Dynamic Island -->
+          <rect x="117" y="18" width="100" height="30" rx="15" fill="#000"/>
+
+          <!-- Status bar -->
+          <text x="32" y="40" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#0e1a2b">12:38</text>
+          <g transform="translate(252, 32)" fill="#0e1a2b">
+            <rect x="0" y="2" width="2.5" height="6" rx="0.5"/>
+            <rect x="4" y="0" width="2.5" height="8" rx="0.5"/>
+            <rect x="8" y="-2" width="2.5" height="10" rx="0.5"/>
+            <rect x="12" y="-4" width="2.5" height="12" rx="0.5"/>
+            <path d="M22 4 q5 -6 10 0" fill="none" stroke="#0e1a2b" stroke-width="1.4"/>
+            <path d="M25 4 q2 -3 4 0" fill="none" stroke="#0e1a2b" stroke-width="1.4"/>
+            <circle cx="27" cy="4" r="0.8" fill="#0e1a2b"/>
+            <rect x="40" y="-1" width="22" height="11" rx="2.5" stroke="#0e1a2b" stroke-width="1.2" fill="none"/>
+            <rect x="42" y="1" width="16" height="7" rx="1" fill="#0e1a2b"/>
+            <rect x="63" y="2" width="1.5" height="5" rx="0.5" fill="#0e1a2b"/>
+          </g>
+
+          <!-- Title -->
+          <text x="22" y="92" font-family="Inter, sans-serif" font-size="26" font-weight="800" letter-spacing="-0.7" fill="#0e1a2b">Home</text>
+
+          <!-- Good afternoon Miles + avatar -->
+          <text x="22" y="124" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#5b6b80">Good afternoon</text>
+          <text x="22" y="146" font-family="Inter, sans-serif" font-size="20" font-weight="800" fill="#0e1a2b">Miles</text>
+          <circle cx="294" cy="130" r="20" fill="#2ea8e0"/>
+          <text x="294" y="137" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">M</text>
+
+          <!-- Today's Mood card -->
+          <rect x="22" y="166" width="290" height="60" rx="14" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+          <circle cx="48" cy="196" r="16" fill="#fff7e0"/>
+          <text x="48" y="201" font-size="16" text-anchor="middle">😎</text>
+          <text x="74" y="190" font-family="Inter, sans-serif" font-size="10" font-weight="700" letter-spacing="0.4" fill="#5b6b80">TODAY'S MOOD</text>
+          <text x="74" y="208" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#0e1a2b">Feeling confident</text>
+
+          <!-- Stats row: streak / exams / XP -->
+          <g transform="translate(22, 244)">
+            <rect width="92" height="62" rx="12" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+            <text x="14" y="22" font-size="12">🔥</text>
+            <text x="14" y="44" font-family="Inter, sans-serif" font-size="18" font-weight="800" fill="#0e1a2b">0</text>
+            <text x="14" y="56" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#5b6b80">day streak</text>
+
+            <rect x="99" width="92" height="62" rx="12" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+            <text x="113" y="22" font-size="12">📅</text>
+            <text x="113" y="44" font-family="Inter, sans-serif" font-size="18" font-weight="800" fill="#0e1a2b">9w</text>
+            <text x="113" y="56" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#5b6b80">until exams</text>
+
+            <rect x="198" width="92" height="62" rx="12" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+            <text x="212" y="22" font-size="12">⭐</text>
+            <text x="212" y="44" font-family="Inter, sans-serif" font-size="18" font-weight="800" fill="#0e1a2b">0</text>
+            <text x="212" y="56" font-family="Inter, sans-serif" font-size="9" font-weight="500" fill="#5b6b80">total XP</text>
+          </g>
+
+          <!-- Level card -->
+          <rect x="22" y="324" width="290" height="74" rx="14" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+          <circle cx="48" cy="354" r="18" fill="#fce8f5"/>
+          <text x="48" y="360" font-family="Inter, sans-serif" font-size="14" font-weight="800" fill="#d04ba6" text-anchor="middle">1</text>
+          <text x="76" y="350" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#0e1a2b">Level 1</text>
+          <text x="76" y="366" font-family="Inter, sans-serif" font-size="11" fill="#5b6b80">Beginner</text>
+          <text x="294" y="350" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#d04ba6" text-anchor="end">0/200 XP</text>
+          <rect x="76" y="378" width="222" height="6" rx="3" fill="#f3e7f0"/>
+          <rect x="76" y="378" width="14" height="6" rx="3" fill="#d04ba6"/>
+
+          <!-- Continue Revising card -->
+          <rect x="22" y="416" width="290" height="68" rx="14" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+          <circle cx="50" cy="450" r="20" fill="#9b5de5"/>
+          <polygon points="44,442 44,458 58,450" fill="#fff"/>
+          <text x="80" y="446" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#0e1a2b">Continue Revising</text>
+          <text x="80" y="464" font-family="Inter, sans-serif" font-size="11" fill="#5b6b80">📚 Core Concepts</text>
+          <text x="298" y="456" font-family="Inter, sans-serif" font-size="14" fill="#5b6b80" text-anchor="end">›</text>
+
+          <!-- Today's Plan label -->
+          <text x="22" y="516" font-family="Inter, sans-serif" font-size="14" font-weight="800" letter-spacing="-0.3" fill="#0e1a2b">Today's Plan</text>
+          <text x="22" y="532" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#5b6b80">0/4 sessions</text>
+          <circle cx="294" cy="520" r="12" fill="none" stroke="#e4e9f0" stroke-width="2"/>
+
+          <!-- Session 1 card -->
+          <rect x="22" y="552" width="290" height="92" rx="14" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+          <rect x="36" y="566" width="44" height="44" rx="10" fill="#fce8f5"/>
+          <text x="58" y="596" font-size="20" text-anchor="middle">📘</text>
+          <text x="92" y="578" font-family="Inter, sans-serif" font-size="9" font-weight="700" letter-spacing="0.4" fill="#5b6b80">SESSION 1</text>
+          <text x="92" y="594" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#0e1a2b">📚 Core Concepts</text>
+          <text x="92" y="608" font-family="Inter, sans-serif" font-size="10" fill="#5b6b80">English Language</text>
+          <text x="92" y="624" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#9b5de5">Structured Revision</text>
+          <text x="92" y="638" font-family="Inter, sans-serif" font-size="9" fill="#5b6b80">⏱ 30 min</text>
+
+          <!-- Start button -->
+          <rect x="232" y="588" width="64" height="28" rx="14" fill="#d04ba6"/>
+          <polygon points="244,599 244,607 251,603" fill="#fff"/>
+          <text x="253" y="606" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#fff">Start</text>
+
+          <!-- Tab bar -->
+          <rect x="14" y="654" width="306" height="48" rx="24" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+          <g font-family="Inter, sans-serif" font-size="9" font-weight="500" text-anchor="middle">
+            <text x="46" y="690" fill="#2ea8e0">Home</text>
+            <text x="46" y="676" font-size="14">🏠</text>
+            <text x="106" y="690" fill="#5b6b80">Calendar</text>
+            <text x="106" y="676" font-size="14">📅</text>
+            <text x="166" y="690" fill="#5b6b80">Scan</text>
+            <text x="166" y="676" font-size="14">📷</text>
+            <text x="226" y="690" fill="#5b6b80">Progress</text>
+            <text x="226" y="676" font-size="14">📈</text>
+            <text x="286" y="690" fill="#5b6b80">Profile</text>
+            <text x="286" y="676" font-size="14">👤</text>
+          </g>
+
+          <!-- Home indicator -->
+          <rect x="124" y="703" width="86" height="4" rx="2" fill="#0e1a2b" opacity="0.7"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="proof">
+  <div class="wrap">
+    <div class="proof-line">
+      <span><strong>5</strong>UK exam boards</span>
+      <span><strong>174</strong>GCSE specifications</span>
+      <span><strong>9,000+</strong>spec points</span>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <span class="section-eyebrow">Premium</span>
+    <h2 class="section-title">Everything's Included.</h2>
+    <p class="section-lede">
+      Built around the way GCSEs are actually structured. No padding, no upsells,
+      no features held hostage behind a higher tier.
+    </p>
+
+    <div class="features">
+      <div class="feature">
+        <h3><span class="feature-num">01</span>Explain It To Me</h3>
+        <p>Plain-English breakdowns of any answer. Tap once, get the actual reasoning — not a Wikipedia article.</p>
+      </div>
+      <div class="feature">
+        <h3><span class="feature-num">02</span>Unlimited Homework Scans</h3>
+        <p>Snap a maths or science question, get a worked solution. As often as you need, no daily caps.</p>
+      </div>
+      <div class="feature">
+        <h3><span class="feature-num">03</span>Offline Mode</h3>
+        <p>Download a fortnight of revision sessions ahead of time. Trains, holidays, dodgy school WiFi — sorted.</p>
+      </div>
+      <div class="feature">
+        <h3><span class="feature-num">04</span>Advanced Analytics</h3>
+        <p>Where you're strong. Where you're not. Which spec points still need work, and which to leave for now.</p>
+      </div>
+      <div class="feature">
+        <h3><span class="feature-num">05</span>Subject Strength Chart</h3>
+        <p>One look tells you the truth. Per-topic, per-subject, per-board — confidence visualised at a glance.</p>
+      </div>
+      <div class="feature">
+        <h3><span class="feature-num">06</span>Ad-Free</h3>
+        <p>No interruptions when you scan a question. Premium skips the ad-gated quota; you focus on the work.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="parents">
+  <div class="wrap">
+    <div class="parents-block">
+      <div class="parents-copy">
+        <span class="section-eyebrow">For Parents</span>
+        <h2>Real Visibility, Without the Drama.</h2>
+        <p>
+          Premium includes a parent dashboard with up to two adults on one account.
+          See progress as it happens — and find out the moment they skip a planned session.
+        </p>
+        <ul class="parents-list">
+          <li>Live Activity Feed
+            <span>What they revised, when. Updates as it happens.</span>
+          </li>
+          <li>Missed Session Alerts
+            <span>If they skip a planned revision session, you know within minutes.</span>
+          </li>
+          <li>Subject Coverage per Topic
+            <span>No guessing. Every spec point, mapped to progress.</span>
+          </li>
+          <li>Custom Rewards
+            <span>Targets you both agree on, redeemed when they hit them.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="iphone-stage">
+        <svg class="phone-svg" viewBox="0 0 334 715" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="parentDashTitle">
+          <title id="parentDashTitle">Parent dashboard preview on iPhone</title>
+
+          <!-- iPhone 16 Pro bezel (slim) -->
+          <rect x="0" y="0" width="334" height="715" rx="56" fill="#1a1a1c"/>
+          <rect x="6" y="6" width="322" height="703" rx="50" fill="#f7f9fc"/>
+
+          <!-- Dynamic Island -->
+          <rect x="117" y="18" width="100" height="30" rx="15" fill="#000"/>
+
+          <!-- Status bar -->
+          <text x="34" y="44" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#0e1a2b">12:38</text>
+          <g transform="translate(252, 35)" fill="#0e1a2b">
+            <circle cx="0" cy="3" r="1.5"/><circle cx="5" cy="3" r="1.5"/><circle cx="10" cy="3" r="1.5"/>
+            <rect x="20" y="0" width="2" height="6" rx="0.5"/>
+            <rect x="24" y="-1" width="2" height="7" rx="0.5"/>
+            <rect x="28" y="-2" width="2" height="8" rx="0.5"/>
+            <rect x="36" y="-2" width="22" height="10" rx="2.5" stroke="#0e1a2b" stroke-width="1" fill="none"/>
+            <rect x="38" y="0" width="16" height="6" rx="1" fill="#0e1a2b"/>
+          </g>
+
+          <!-- Header -->
+          <text x="24" y="92" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#5b6b80">Good morning</text>
+          <text x="24" y="120" font-family="Inter, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.7" fill="#0e1a2b">Miles's Progress</text>
+          <text x="24" y="142" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#5b6b80">Week ending 3 May 2026</text>
+
+          <!-- Premium badge top right -->
+          <rect x="240" y="86" width="74" height="24" rx="12" fill="#e8f5fc" stroke="#2ea8e0" stroke-width="1"/>
+          <text x="277" y="102" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#1c8ec3" text-anchor="middle">PREMIUM</text>
+
+          <!-- Live status banner -->
+          <rect x="22" y="166" width="290" height="44" rx="14" fill="#e8f6ee"/>
+          <circle cx="38" cy="188" r="4" fill="#1f9d63"/>
+          <text x="50" y="192" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f9d63">Live · Updates in real-time</text>
+
+          <!-- Stats grid 2x2 -->
+          <g transform="translate(22, 226)">
+            <rect width="142" height="76" rx="14" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+            <text x="14" y="22" font-family="Inter, sans-serif" font-size="9" font-weight="700" letter-spacing="0.6" fill="#5b6b80">SESSIONS</text>
+            <text x="14" y="50" font-family="Inter, sans-serif" font-size="22" font-weight="800" fill="#0e1a2b">12</text>
+            <text x="14" y="66" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#1f9d63">↑ 3 this week</text>
+
+            <rect x="148" y="0" width="142" height="76" rx="14" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+            <text x="162" y="22" font-family="Inter, sans-serif" font-size="9" font-weight="700" letter-spacing="0.6" fill="#5b6b80">STUDY TIME</text>
+            <text x="162" y="50" font-family="Inter, sans-serif" font-size="22" font-weight="800" fill="#0e1a2b">5h 40m</text>
+            <text x="162" y="66" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#1f9d63">↑ on target</text>
+
+            <rect y="84" width="142" height="76" rx="14" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+            <text x="14" y="106" font-family="Inter, sans-serif" font-size="9" font-weight="700" letter-spacing="0.6" fill="#5b6b80">STREAK</text>
+            <text x="14" y="134" font-family="Inter, sans-serif" font-size="22" font-weight="800" fill="#0e1a2b">9</text>
+            <text x="38" y="134" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#5b6b80">days</text>
+            <text x="14" y="150" font-family="Inter, sans-serif" font-size="10" fill="#5b6b80">🔥 Personal best</text>
+
+            <rect x="148" y="84" width="142" height="76" rx="14" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+            <text x="162" y="106" font-family="Inter, sans-serif" font-size="9" font-weight="700" letter-spacing="0.6" fill="#5b6b80">SUBJECTS</text>
+            <text x="162" y="134" font-family="Inter, sans-serif" font-size="22" font-weight="800" fill="#0e1a2b">8</text>
+            <text x="162" y="150" font-family="Inter, sans-serif" font-size="10" fill="#5b6b80">all on track</text>
+          </g>
+
+          <!-- Activity feed -->
+          <text x="24" y="416" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#0e1a2b">Recent activity</text>
+
+          <g transform="translate(22, 432)">
+            <rect width="290" height="48" rx="12" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+            <circle cx="24" cy="24" r="14" fill="#fff7e0"/>
+            <text x="24" y="28" font-size="14" text-anchor="middle">🔥</text>
+            <text x="48" y="22" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#0e1a2b">Streak extended to 9 days</text>
+            <text x="48" y="38" font-family="Inter, sans-serif" font-size="10" fill="#5b6b80">Just now</text>
+          </g>
+
+          <g transform="translate(22, 488)">
+            <rect width="290" height="48" rx="12" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+            <circle cx="24" cy="24" r="14" fill="#e8f5fc"/>
+            <text x="24" y="28" font-size="14" text-anchor="middle">📘</text>
+            <text x="48" y="22" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#0e1a2b">Studied Biology · Cell Structure</text>
+            <text x="48" y="38" font-family="Inter, sans-serif" font-size="10" fill="#5b6b80">14 minutes ago · 78% accuracy</text>
+          </g>
+
+          <g transform="translate(22, 544)">
+            <!-- Missed session (alerts feature) -->
+            <rect width="290" height="48" rx="12" fill="#fff5f5" stroke="#ffd6d6" stroke-width="1"/>
+            <circle cx="24" cy="24" r="14" fill="#ffe1e1"/>
+            <text x="24" y="29" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="#d23535" text-anchor="middle">!</text>
+            <text x="48" y="22" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d23535">Missed: Maths revision session</text>
+            <text x="48" y="38" font-family="Inter, sans-serif" font-size="10" fill="#a23030">1 hour ago · Today's plan</text>
+          </g>
+
+          <!-- Subject coverage card -->
+          <rect x="22" y="608" width="290" height="86" rx="14" fill="#ffffff" stroke="#e4e9f0" stroke-width="1"/>
+          <text x="36" y="628" font-family="Inter, sans-serif" font-size="10" font-weight="700" letter-spacing="0.4" fill="#5b6b80">SUBJECT COVERAGE</text>
+
+          <g transform="translate(36, 644)">
+            <text x="0" y="10" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#0e1a2b">Maths</text>
+            <rect x="60" y="3" width="180" height="6" rx="3" fill="#e4e9f0"/>
+            <rect x="60" y="3" width="158" height="6" rx="3" fill="#2ea8e0"/>
+            <text x="248" y="10" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#0e1a2b">88%</text>
+          </g>
+
+          <g transform="translate(36, 660)">
+            <text x="0" y="10" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#0e1a2b">Biology</text>
+            <rect x="60" y="3" width="180" height="6" rx="3" fill="#e4e9f0"/>
+            <rect x="60" y="3" width="124" height="6" rx="3" fill="#2ea8e0"/>
+            <text x="248" y="10" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#0e1a2b">69%</text>
+          </g>
+
+          <g transform="translate(36, 676)">
+            <text x="0" y="10" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#0e1a2b">English</text>
+            <rect x="60" y="3" width="180" height="6" rx="3" fill="#e4e9f0"/>
+            <rect x="60" y="3" width="92" height="6" rx="3" fill="#2ea8e0"/>
+            <text x="248" y="10" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#0e1a2b">51%</text>
+          </g>
+
+          <!-- Home indicator -->
+          <rect x="124" y="703" width="86" height="4" rx="2" fill="#0e1a2b" opacity="0.7"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="boards" class="section-boards">
+  <div class="wrap">
+    <div class="boards-header">
+      <span class="section-eyebrow">Coverage</span>
+      <h2 class="section-title">Every Board. Every Subject.</h2>
+      <p class="section-lede">
+        GCSE Boss covers all 174 specifications across the five UK exam boards. Whether your school
+        teaches AQA, Pearson Edexcel, OCR, WJEC/Eduqas, or CCEA — every specification point is
+        mapped, every topic broken down. One of the very few revision apps to support all five.
+      </p>
+      <p class="boards-cta">
+        <a href="subjects.html" class="boards-link">See every subject by board →</a>
+      </p>
+    </div>
+
+    <div class="boards-grid">
+      <article class="board-card">
+        <div class="board-abbr">AQA</div>
+        <div class="board-name">Assessment and Qualifications Alliance</div>
+        <p>England's most-used GCSE exam board. Strongest coverage across English Language, English Literature, Mathematics, the Science suite, History, and Geography. Used by around half of England's schools.</p>
+      </article>
+
+      <article class="board-card">
+        <div class="board-abbr">Edexcel</div>
+        <div class="board-name">Pearson Edexcel</div>
+        <p>The UK's largest commercial exam board, owned by Pearson. Broad reach across Mathematics, the Sciences, Modern Foreign Languages, and Business Studies. Specifications updated regularly to match curriculum changes.</p>
+      </article>
+
+      <article class="board-card">
+        <div class="board-abbr">OCR</div>
+        <div class="board-name">Oxford, Cambridge and RSA Examinations</div>
+        <p>Part of Cambridge University Press &amp; Assessment. Particularly strong in the Sciences, Computer Science, Classical Civilisation, Latin, and Religious Studies. A favourite among grammar and independent schools.</p>
+      </article>
+
+      <article class="board-card">
+        <div class="board-abbr">WJEC<br>/Eduqas</div>
+        <div class="board-name">Welsh Joint Education Committee</div>
+        <p>Wales's main exam board, with Eduqas-branded specifications also widely used by schools in England. Particularly strong in Religious Studies, Design &amp; Technology, Drama, and Performing Arts.</p>
+      </article>
+
+      <article class="board-card">
+        <div class="board-abbr">CCEA</div>
+        <div class="board-name">Council for the Curriculum, Examinations and Assessment</div>
+        <p>Northern Ireland's exam board, the statutory body of the Department of Education. Distinct subject set including NI-specific content alongside the standard GCSE suite — and we cover all of it.</p>
+      </article>
+    </div>
+
+    <p class="boards-footnote">
+      GCSE Boss is not affiliated with or endorsed by any exam board. We map their published specifications
+      so students can revise exactly what's in their syllabus.
+    </p>
+  </div>
+</section>
+
+<section id="pricing" class="section-center">
+  <div class="wrap">
+    <span class="section-eyebrow">Pricing</span>
+    <h2 class="section-title">One Plan. No Upsells.</h2>
+    <p class="section-lede">
+      Premium covers one student plus up to two parents on the parent dashboard.
+      Cancel anytime.
+    </p>
+
+    <div class="pricing-wrap">
+      <div class="pricing-card">
+        <span class="tier">Premium</span>
+        <div class="price"><sup>£</sup>4.99</div>
+        <div class="cadence">per month</div>
+        <div class="annual">or £24.99/year — saves over 50%</div>
+
+        <ul>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>All 6 Premium Features</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Parent Dashboard for 2 Adults</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>All 5 GCSE Exam Boards</li>
+          <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Cancel Anytime</li>
+        </ul>
+
+        <a href="#" class="pricing-cta">Get GCSE Boss</a>
+
+        <p class="pricing-fine">
+          Subscription auto-renews until cancelled. Manage in your Apple ID settings.
+          Coming soon to the App Store.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="index.html" class="brand-mark">
+          <img src="images/GCSEBossv3.png" alt="GCSE Boss" />
+        </a>
+        <p>GCSE revision, built around the actual specification. iPhone only, for now.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#parents">For Parents</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy</a></li>
+          <li><a href="terms-of-service.html">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-meta">
+      <span class="legal-line">© 2026 GCSE Boss. Made for UK GCSE students.</span>
+      <span class="legal-line">GCSE Boss is a trading name of Apavai Ltd. Registered in England &amp; Wales · Company No. 17036797.</span>
+      <span class="legal-line">71–75 Shelton Street, Covent Garden, London, WC2H 9JQ.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
