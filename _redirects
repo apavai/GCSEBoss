@@ -1,9 +1,0 @@
-# Cloudflare Pages clean URL rewrites
-# These let the iOS app's hardcoded URLs (gcseboss.com/privacy-policy etc.) serve the right content
-# Status 200 = rewrite (URL stays clean in browser, server responds with the .html content)
-
-/privacy-policy     /privacy-policy.html     200
-/terms-of-service   /terms-of-service.html   200
-/contact            /contact.html            200
-/blog               /blog/index.html         200
-/blog/welcome-to-gcse-boss  /blog/posts/welcome-to-gcse-boss.html  200
