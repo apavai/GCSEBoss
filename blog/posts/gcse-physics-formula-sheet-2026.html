@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The GCSE physics formula sheet 2026 is handed to you in Paper 1 and Paper 2. Here's what's on it, what isn't, and how to actually use it without freezing." />
+  <meta property="og:title" content="GCSE Physics Formula Sheet 2026: How to Actually Use It" />
+  <meta property="og:description" content="Every formula is on the sheet they give you. Knowing it exists isn't the same as using it under pressure. Here's the drill." />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+  <title>GCSE Physics Formula Sheet 2026: How to Actually Use It — GCSE Boss</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="brand-mark">
+      <img src="/images/GCSEBossv3.png" alt="GCSE Boss" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="/#features">Features</a></li>
+      <li><a href="/#parents">Parents</a></li>
+      <li><a href="/#pricing">Pricing</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="/#pricing" class="nav-cta">Get the app</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="blog-post">
+  <header class="blog-post-header">
+    <time class="blog-date" datetime="2026-05-25">25 May 2026</time>
+    <h1>GCSE Physics Formula Sheet 2026: How to Actually Use It Without Freezing</h1>
+    <p class="blog-post-lede">
+      You've spent half of Year 11 trying to memorise twenty-something physics equations. Here's the thing nobody put in capital letters at school: in the GCSE Physics exam in 2026, every single one of those equations is printed on a sheet that's handed to you in the paper. The Ofqual rolling update on 15 May 2026 confirmed the formula and equation sheets stay in GCSE Physics, Combined Science and Maths until the spec changes around 2030. So memorising every equation isn't the test any more. Using them, under pressure, in 90 seconds — that's the test.
+    </p>
+  </header>
+
+  <article class="blog-post-body">
+    <p>
+      This isn't a "you don't need to revise" piece. You still very much do. But if you've been losing sleep over flashcards of <em>kinetic energy = ½ × mass × speed²</em>, you've been revising the wrong skill. Knowing the equation exists isn't the same as being able to spot which one to use, rearrange it, drop in the right units, and get a number out before the clock kills you. That's the actual exam. So that's what this is about.
+    </p>
+
+    <h2>The GCSE physics formula sheet 2026: what's actually on it</h2>
+
+    <p>
+      The Physics and Combined Science equation sheet is inserted into Paper 1 and Paper 2 for AQA, Pearson Edexcel and OCR. It lists the equations you used to have to memorise — the ones with the asterisks next to them in your textbook. Pressure × volume = constant. Force × distance = work done. The two kinetic energy equations. The wave equation. The transformer equations. The big lens equation if you're on triple. The full list runs to about 23 equations depending on tier and board.
+    </p>
+
+    <p>
+      The sheet is the same one the exam boards already published on their websites months ago — there are no surprises. If you've not seen yours yet, go to your board's website and download it tonight. Print it. Stare at it. The sheet you sit the exam with is the sheet you've already been allowed to revise from.
+    </p>
+
+    <h2>What you DO still need in your head</h2>
+
+    <p>
+      Just because the equations are on the sheet doesn't mean the paper is on easy mode. There's a small list of stuff you still have to know cold, because it's not on the sheet and you're expected to know it.
+    </p>
+
+    <p>
+      The basics: density = mass / volume. Speed = distance / time. Acceleration = change in velocity / time. Force = mass × acceleration. Weight = mass × gravitational field strength. Momentum = mass × velocity. Energy transferred = power × time. Charge = current × time. Voltage = current × resistance. These ones — the "core nine" depending on your board — are the everyday ones, and exam boards expect them as background knowledge. The longer, scarier-looking ones are on the sheet.
+    </p>
+
+    <p>
+      You also need the units cold. Newtons, joules, watts, pascals, ohms, hertz. SI prefixes (kilo, mega, milli, micro). If you stick the wrong unit on a correct number you lose the mark anyway.
+    </p>
+
+    <h2>The "see-the-quantity, find-the-formula, sub-and-solve" drill</h2>
+
+    <p>
+      This is the drill that turns the equation sheet from a comfort blanket into a weapon. It's three steps and it should take you under a minute on most questions.
+    </p>
+
+    <p>
+      <strong>Step 1 — see-the-quantity.</strong> Read the question and underline the quantity it's asking you to find. Energy in joules. Pressure in pascals. Force in newtons. Whatever the unit is, that tells you which family of equations on the sheet you need. Don't even look at the numbers yet.
+    </p>
+
+    <p>
+      <strong>Step 2 — find-the-formula.</strong> Scan the equation sheet for the formula that gives you that quantity from the values the question gives you. If the question hands you mass and velocity, and asks for kinetic energy, you want ½ × mass × speed². If it gives you charge and voltage, and asks for energy, you want charge × voltage. The sheet is searchable by output and by input — you just have to look both ways.
+    </p>
+
+    <p>
+      <strong>Step 3 — sub-and-solve.</strong> Now you read the numbers. Convert units before substituting (kilograms not grams, metres not centimetres, seconds not minutes). Substitute. Calculate. Write the answer with the correct unit and the right significant figures. Done.
+    </p>
+
+    <p>
+      Practise this on five past-paper calculation questions tonight and you'll feel the difference by the second one.
+    </p>
+
+    <h2>Rearranging equations under pressure — the 30-second skill</h2>
+
+    <p>
+      The sheet gives you the equation in its standard form — <em>force = mass × acceleration</em>. The exam often asks you for the variable that isn't on the left. So you need to rearrange. This trips people up because the panic of an exam suddenly turns simple algebra into a foreign language.
+    </p>
+
+    <p>
+      Two tricks that genuinely work. First: cover up the variable you want with your finger. Whatever's left tells you the operation. Cover acceleration on <em>F = ma</em> and you're left with F and m on either side of an equals sign — divide F by m, you've got a. Second: write the rearranged form on your sheet next to the original, the moment you realise you need it. That way you're not re-doing the algebra every time a follow-up question uses the same equation. The sheet is yours to annotate — use it.
+    </p>
+
+    <h2>Where the sheet sits in the paper (and how to find it fast)</h2>
+
+    <p>
+      The equation sheet is typically inserted as a loose page or printed inside the back cover of the question booklet. The instructions on the front of the paper tell you exactly where it is. Worth knowing now, not at 9:05am tomorrow.
+    </p>
+
+    <p>
+      In the first thirty seconds of the exam, find the sheet. Pull it out so it's sitting next to your paper, equations visible. Don't bury it underneath the question booklet — you'll waste twenty seconds turning pages every time you need it, and over a 90-minute paper that's a couple of full questions of wasted time.
+    </p>
+
+    <h2>The mistakes that lose marks when you have the sheet in front of you</h2>
+
+    <p>
+      Three classic mistakes, all of which you can avoid with five minutes of awareness.
+    </p>
+
+    <p>
+      <strong>Mistake one: not converting units.</strong> The sheet gives you the equation in SI units. If the question gives you a mass in grams or a distance in centimetres, convert before you substitute. Half the lost marks on calculation questions in past papers are unit-conversion errors, not equation choice.
+    </p>
+
+    <p>
+      <strong>Mistake two: picking the wrong equation because two of them look similar.</strong> The two kinetic energy equations (one for translational, one for elastic potential — KE = ½mv² versus EPE = ½ke²) trip people up every year. Read what the variables stand for, not just the shape of the equation. The sheet labels them.
+    </p>
+
+    <p>
+      <strong>Mistake three: forgetting to show working.</strong> Even with the equation on the sheet, the mark scheme awards method marks. Write down the equation you're using, then the substitution, then the answer with a unit. Three lines of working, almost always at least two marks even if your final number is wrong.
+    </p>
+
+    <h2>One last thing</h2>
+
+    <p>
+      Your physics teacher isn't telling you to memorise equations because she's behind on the rule change — she's telling you because being fluent with them, even with the sheet there, is faster than scanning for them under exam pressure. The sheet is a safety net, not a substitute for knowing what you're doing.
+    </p>
+
+    <p>
+      But it does mean you can stop the 1am cram of formula flashcards. Tonight is better spent on three past-paper calculation questions, marked honestly, with the official equation sheet next to you exactly as it'll be tomorrow. That's the rehearsal that matches the performance.
+    </p>
+
+    <p>
+      Go to sleep. You'll be fine.
+    </p>
+  </article>
+
+  <p class="blog-post-back">
+    <a href="/blog/" class="blog-read-more">← Back to all posts</a>
+  </p>
+
+  <aside class="blog-cta-banner" aria-label="Download GCSE Boss">
+    <p class="blog-cta-heading">Download the app on the App Store for free.</p>
+    <a href="#" class="app-store-badge" aria-label="Download on the App Store">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+      <div>
+        <div class="top">Download on the</div>
+        <div class="bottom">App Store</div>
+      </div>
+    </a>
+    <p class="blog-cta-note">Coming soon · iPhone only</p>
+  </aside>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="/" class="brand-mark">
+          <img src="/images/GCSEBossv3.png" alt="GCSE Boss" />
+        </a>
+        <p>GCSE revision, built around the actual specification. iPhone only, for now.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#parents">For Parents</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/contact">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy-policy">Privacy</a></li>
+          <li><a href="/terms-of-service">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-meta">
+      <span class="legal-line">© 2026 GCSE Boss. Made for UK GCSE students.</span>
+      <span class="legal-line">GCSE Boss is a trading name of Apavai Ltd. Registered in England &amp; Wales · Company No. 17036797.</span>
+      <span class="legal-line">71–75 Shelton Street, Covent Garden, London, WC2H 9JQ.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
