@@ -1,2 +1,13 @@
 .DS_Store
 Archive.zip
+
+# Secrets — never commit
+.env
+.env.*
+*.key
+
+# Agent working files
+02-Marketing/assets/source-clean.png
+02-Marketing/assets/cm_frame_*.png
+02-Marketing/assets/tt_frame_*.png
+02-Marketing/assets/Gemini_Generated_*.png
