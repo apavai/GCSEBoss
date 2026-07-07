@@ -566,14 +566,66 @@ footer {
   line-height: 1.55;
   max-width: 280px;
 }
-.footer-meta {
+/* Footer bottom — copyright, Apavai badge, legal disclosure */
+.footer-bottom {
   padding-top: 32px;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.75);
-  line-height: 1.7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
   text-align: center;
 }
-.footer-meta .legal-line { display: block; margin-bottom: 4px; }
+.footer-bottom-copy {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+.apavai-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: var(--radius, 12px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.08);
+  padding: 8px 14px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+.apavai-badge:hover {
+  border-color: rgba(255, 255, 255, 0.45);
+  background: rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.95);
+}
+.apavai-wordmark {
+  height: 14px;
+  width: auto;
+  color: rgba(255, 255, 255, 0.65);
+  transition: color 0.2s;
+}
+.apavai-badge:hover .apavai-wordmark {
+  color: rgba(255, 255, 255, 0.9);
+}
+.apavai-badge-label {
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+.footer-bottom-legal {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.6;
+}
+.footer-bottom-legal p {
+  margin: 0;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.footer-bottom-legal p + p {
+  margin-top: 2px;
+}
 @media (max-width: 760px) {
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
   .footer-brand { grid-column: 1 / -1; }
