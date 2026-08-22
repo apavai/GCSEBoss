@@ -4,10 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="GCSE revision tips, product updates, and parent guides from the GCSE Boss team." />
-  <meta property="og:title" content="GCSE Revision Blog — GCSE Boss" />
+  <meta property="og:title" content="GCSE Revision Blog: GCSE Boss" />
   <meta property="og:description" content="GCSE revision tips, product updates, and parent guides." />
   <link rel="icon" type="image/png" href="/images/logo.png" />
-  <title>GCSE Revision Blog — GCSE Boss</title>
+  <title>GCSE Revision Blog: GCSE Boss</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -33,16 +33,116 @@
 <main class="blog-index">
   <h1>GCSE Revision Blog</h1>
   <p class="lede">
-    GCSE revision tips, product updates, and parent guides — from the team building
+    GCSE revision tips, product updates, and parent guides from the team building
     revision around your actual exam specification.
   </p>
 
-  <div class="blog-list">
+  <section class="blog-topics" aria-label="Browse by topic">
+    <button
+      type="button"
+      class="blog-topics-trigger"
+      id="blog-topics-trigger"
+      aria-expanded="false"
+      aria-controls="blog-topics-panel"
+    >
+      <span>Browse by topic</span>
+      <span class="blog-topics-toggle">
+        <span id="blog-topics-label">Show topics</span>
+        <svg class="blog-topics-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </span>
+    </button>
+    <div class="blog-topics-panel" id="blog-topics-panel" hidden>
+      <p class="blog-topics-intro">
+        Start with a cluster that matches where you are: results day, revision methods, parents, or a specific subject.
+      </p>
+      <div class="blog-topics-grid">
+        <div class="blog-topics-hub">
+          <h3>Results day</h3>
+          <ul>
+            <li><a href="/blog/posts/what-to-do-after-gcse-results">What to Do After GCSE Results</a></li>
+            <li><a href="/blog/posts/gcse-results-lower-than-expected">GCSE Results Lower Than Expected</a></li>
+            <li><a href="/blog/posts/gcse-results-day-support-parents">Results Day Support for Parents</a></li>
+            <li><a href="/blog/posts/waiting-for-gcse-results">Waiting for GCSE Results</a></li>
+            <li><a href="/blog/posts/week-before-gcse-results">The Week Before GCSE Results</a></li>
+            <li><a href="/blog/posts/what-time-gcse-results-come-out">What Time Do GCSE Results Come Out?</a></li>
+            <li><a href="/blog/posts/how-to-find-my-gcse-results">How to Find My GCSE Results</a></li>
+          </ul>
+        </div>
+        <div class="blog-topics-hub">
+          <h3>Grades, remarks and resits</h3>
+          <ul>
+            <li><a href="/blog/posts/didnt-get-gcse-grades">I Didn't Get the GCSE Grades I Needed</a></li>
+            <li><a href="/blog/posts/appeal-gcse-grade">How to Appeal a GCSE Grade</a></li>
+            <li><a href="/blog/posts/gcse-resits-november">GCSE Resits November 2026</a></li>
+            <li><a href="/blog/posts/9-1-gcse-grading-system-explained">GCSE Grades Explained (9–1)</a></li>
+            <li><a href="/blog/posts/how-to-talk-to-teenager-about-bad-gcse-results">Talking About Bad GCSE Results</a></li>
+            <li><a href="/blog/posts/find-gcse-results-from-years-ago">Find Results From Years Ago</a></li>
+          </ul>
+        </div>
+        <div class="blog-topics-hub">
+          <h3>Sixth form and after GCSEs</h3>
+          <ul>
+            <li><a href="/blog/posts/starting-sixth-form-after-gcses">Starting Sixth Form After GCSEs</a></li>
+            <li><a href="/blog/posts/sixth-form-rejected-after-results">Sixth Form Said No?</a></li>
+            <li><a href="/blog/posts/what-grades-do-you-need-for-sixth-form">What Grades Do You Need for Sixth Form?</a></li>
+            <li><a href="/blog/posts/what-to-do-after-gcses-options">What to Do After GCSEs</a></li>
+            <li><a href="/blog/posts/summer-before-sixth-form-catch-up">Catch Up Before Sixth Form?</a></li>
+            <li><a href="/blog/posts/what-to-do-after-gcses-in-summer">What to Do After GCSEs in Summer</a></li>
+          </ul>
+        </div>
+        <div class="blog-topics-hub">
+          <h3>For parents</h3>
+          <ul>
+            <li><a href="/blog/posts/how-to-help-teenager-revise-effectively">How to Help Your Teenager Revise</a></li>
+            <li><a href="/blog/posts/how-to-motivate-teenager-to-revise">How to Motivate a Teenager to Revise</a></li>
+            <li><a href="/blog/posts/how-to-talk-to-teenager-about-revision">How to Talk About Revision</a></li>
+            <li><a href="/blog/posts/gcse-revision-parent-dashboard">The Parent Dashboard</a></li>
+            <li><a href="/blog/posts/monitor-child-gcse-revision">Monitor Revision Without Interrogation</a></li>
+            <li><a href="/blog/posts/gcse-mark-scheme-parents-guide">GCSE Mark Schemes for Parents</a></li>
+          </ul>
+        </div>
+        <div class="blog-topics-hub">
+          <h3>Revision techniques</h3>
+          <ul>
+            <li><a href="/blog/posts/what-is-spaced-repetition-gcse">What Is Spaced Repetition?</a></li>
+            <li><a href="/blog/posts/gcse-revision-techniques-that-actually-work">The Two Techniques That Work</a></li>
+            <li><a href="/blog/posts/leitner-system-gcse-flashcards">The Leitner System</a></li>
+            <li><a href="/blog/posts/active-recall-gcse-revision">Active Recall for GCSE</a></li>
+            <li><a href="/blog/posts/gcse-revision-timetable">How to Build a Revision Timetable</a></li>
+            <li><a href="/blog/posts/how-much-revision-per-day-gcse">How Much Revision a Day?</a></li>
+          </ul>
+        </div>
+        <div class="blog-topics-hub">
+          <h3>Subject revision</h3>
+          <ul>
+            <li><a href="/blog/posts/gcse-maths-paper-2-topics">GCSE Maths Paper 2 Topics</a></li>
+            <li><a href="/blog/posts/gcse-biology-required-practicals">Biology Required Practicals</a></li>
+            <li><a href="/blog/posts/gcse-chemistry-common-mistakes">Chemistry Common Mistakes</a></li>
+            <li><a href="/blog/posts/gcse-physics-formula-sheet-2026">Physics Formula Sheet 2026</a></li>
+            <li><a href="/blog/posts/gcse-english-language-paper-2-tips">English Language Paper 2</a></li>
+            <li><a href="/blog/posts/gcse-english-literature-quote-revision">English Literature Quotes</a></li>
+            <li><a href="/blog/posts/gcse-history-revision-named-people">History Named People</a></li>
+            <li><a href="/blog/posts/gcse-geography-case-studies-revision">Geography Case Studies</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="blog-topics-foot">
+        New here? See
+        <a href="/#features">how GCSE Boss maps every spec point</a>
+        or
+        <a href="https://apps.apple.com/gb/app/id6767156614">get the app</a>.
+      </p>
+    </div>
+  </section>
+
+  <div class="blog-list" id="blog-list">
     <article class="blog-card">
       <time class="blog-date" datetime="2026-08-21">21 August 2026 · Student voice</time>
       <h2><a href="/blog/posts/what-to-do-after-gcse-results">What to Do After GCSE Results: The Day After, and What Actually Matters This Weekend</a></h2>
       <p class="blog-excerpt">
-        Yesterday had a shape to it — an early alarm, a corridor, a phone that wouldn't stop buzzing. Today has no shape at all, and that flat, slightly empty feeling catches almost everyone, whichever way the day went. A short, no-lecture guide to what to do after GCSE results on the day after: the one practical thing genuinely worth sorting today (if September still isn't confirmed, ring them — post-results enrolment mostly closes this week), everything that can safely wait until Monday, how to handle a group chat still doing numbers, and what a weekend that actually helps looks like. Plus what to do if today lands heavier than flat.
+        Yesterday had a shape to it: an early alarm, a corridor, a phone that wouldn't stop buzzing. Today has no shape at all, and that flat, slightly empty feeling catches almost everyone, whichever way the day went. A short, no-lecture guide to what to do after GCSE results on the day after: the one practical thing genuinely worth sorting today (if September still isn't confirmed, ring them: post-results enrolment mostly closes this week), everything that can safely wait until Monday, how to handle a group chat still doing numbers, and what a weekend that actually helps looks like. Plus what to do if today lands heavier than flat.
       </p>
       <a href="/blog/posts/what-to-do-after-gcse-results" class="blog-read-more">Read more →</a>
     </article>
@@ -50,7 +150,7 @@
       <time class="blog-date" datetime="2026-08-20">20 August 2026 · Parent voice</time>
       <h2><a href="/blog/posts/gcse-results-lower-than-expected">GCSE Results Lower Than Expected: The Conversation That Doesn't Make It Worse</a></h2>
       <p class="blog-excerpt">
-        Published on results morning itself — Thursday 20 August 2026 — because that's when it's needed. If GCSE results came in lower than expected, the first hour is the part you actually control, and it has a genuinely small job: stay warm, stay unrushed, don't issue a verdict. Four lines that work in the moment, four things that land far better at 4pm than at 9am, and the routes that are all still open on Monday. Plus what's new this year (results on the Education Record app — and why going into school still matters), and what to do if today lands heavily.
+        Published on results morning itself (Thursday 20 August 2026) because that's when it's needed. If GCSE results came in lower than expected, the first hour is the part you actually control, and it has a genuinely small job: stay warm, stay unrushed, don't issue a verdict. Four lines that work in the moment, four things that land far better at 4pm than at 9am, and the routes that are all still open on Monday. Plus what's new this year (results on the Education Record app, and why going into school still matters), and what to do if today lands heavily.
       </p>
       <a href="/blog/posts/gcse-results-lower-than-expected" class="blog-read-more">Read more →</a>
     </article>
@@ -58,7 +158,7 @@
       <time class="blog-date" datetime="2026-08-19">19 August 2026 · Student voice</time>
       <h2><a href="/blog/posts/starting-sixth-form-after-gcses">Starting Sixth Form After GCSEs: What Week One Actually Looks Like</a></h2>
       <p class="blog-excerpt">
-        "Big step up." "You'll need to be independent now." Technically true, completely useless as information. Here's the boring, concrete version of starting sixth form after GCSEs: what week one is actually made of (admin, queuing, a timetable that changes twice), why free periods decide most people's first term, and the three small things worth setting up in your first week instead of your sixth. Plus why three subjects means you can't hide — and what to do if your September ends up looking different from the one you'd planned.
+        "Big step up." "You'll need to be independent now." Technically true, completely useless as information. Here's the boring, concrete version of starting sixth form after GCSEs: what week one is actually made of (admin, queuing, a timetable that changes twice), why free periods decide most people's first term, and the three small things worth setting up in your first week instead of your sixth. Plus why three subjects means you can't hide, and what to do if your September ends up looking different from the one you'd planned.
       </p>
       <a href="/blog/posts/starting-sixth-form-after-gcses" class="blog-read-more">Read more →</a>
     </article>
@@ -66,7 +166,7 @@
       <time class="blog-date" datetime="2026-08-18">18 August 2026 · Parent voice</time>
       <h2><a href="/blog/posts/gcse-results-day-support-parents">GCSE Results Day Support for Parents: What to Say in the First Five Minutes</a></h2>
       <p class="blog-excerpt">
-        Almost every guide to Thursday 20 August 2026 covers the logistics — times, boundaries, next steps. Hardly anyone writes the bit you'll actually need: the words. This is the GCSE results day support parents rarely get — a short script for the first five minutes. Four things worth saying (all of which work whatever's on the paper), four worth leaving until later, and why your face gets there before your words do. Plus the one rule that saves most results-day regrets: no big decisions before lunch.
+        Almost every guide to Thursday 20 August 2026 covers the logistics: times, boundaries, next steps. Hardly anyone writes the bit you'll actually need: the words. This is the GCSE results day support parents rarely get: a short script for the first five minutes. Four things worth saying (all of which work whatever's on the paper), four worth leaving until later, and why your face gets there before your words do. Plus the one rule that saves most results-day regrets: no big decisions before lunch.
       </p>
       <a href="/blog/posts/gcse-results-day-support-parents" class="blog-read-more">Read more →</a>
     </article>
@@ -74,15 +174,15 @@
       <time class="blog-date" datetime="2026-08-17">17 August 2026 · Student voice</time>
       <h2><a href="/blog/posts/waiting-for-gcse-results">Waiting for GCSE Results: How to Get Through the Last Few Days</a></h2>
       <p class="blog-excerpt">
-        Three days to go, nothing left to revise, and time doing that thing where it slows down on purpose. Waiting for GCSE results is genuinely harder than the exams were — because there's nothing left to do. A calm, no-lecture guide for students to spending Monday, Tuesday and Wednesday before results day (Thursday 20 August 2026): why the flat, restless feeling is normal, what actually helps, and the two things worth skipping entirely (grade-boundary hunting and re-sitting the papers in your head). Plus the one bit of Thursday-morning admin worth sorting now, and what to do if the waiting is getting to you.
+        Three days to go, nothing left to revise, and time doing that thing where it slows down on purpose. Waiting for GCSE results is genuinely harder than the exams were, because there's nothing left to do. A calm, no-lecture guide for students to spending Monday, Tuesday and Wednesday before results day (Thursday 20 August 2026): why the flat, restless feeling is normal, what actually helps, and the two things worth skipping entirely (grade-boundary hunting and re-sitting the papers in your head). Plus the one bit of Thursday-morning admin worth sorting now, and what to do if the waiting is getting to you.
       </p>
       <a href="/blog/posts/waiting-for-gcse-results" class="blog-read-more">Read more →</a>
     </article>
     <article class="blog-card">
       <time class="blog-date" datetime="2026-08-14">14 August 2026 · Student voice</time>
-      <h2><a href="/blog/posts/appeal-gcse-grade">How to Appeal a GCSE Grade — Remarks, Reviews and the Deadlines That Matter</a></h2>
+      <h2><a href="/blog/posts/appeal-gcse-grade">How to Appeal a GCSE Grade: Remarks, Reviews and the Deadlines That Matter</a></h2>
       <p class="blog-excerpt">
-        Open your results, look at one grade and think "that's not right"? There's a proper process to appeal a GCSE grade — and it's more common than you'd guess. A calm, plain-English guide for students: what a clerical re-check, a review of marking and a priority review actually do, the deadlines that really matter (hint: it's your school's, not the exam board's), what a remark costs and when the fee comes back, and the honest bit nobody says loudly enough — your grade can go up, stay the same, or down. Plus how to decide if it's worth it, and exactly what to do on results day (Thursday 20 August 2026).
+        Open your results, look at one grade and think "that's not right"? There's a proper process to appeal a GCSE grade, and it's more common than you'd guess. A calm, plain-English guide for students: what a clerical re-check, a review of marking and a priority review actually do, the deadlines that really matter (hint: it's your school's, not the exam board's), what a remark costs and when the fee comes back, and the honest bit nobody says loudly enough: your grade can go up, stay the same, or down. Plus how to decide if it's worth it, and exactly what to do on results day (Thursday 20 August 2026).
       </p>
       <a href="/blog/posts/appeal-gcse-grade" class="blog-read-more">Read more →</a>
     </article>
@@ -90,7 +190,7 @@
       <time class="blog-date" datetime="2026-08-13">13 August 2026 · For parents</time>
       <h2><a href="/blog/posts/celebrating-gcse-results-without-pressure">When They've Smashed It: Celebrating GCSE Results Without Piling On Pressure</a></h2>
       <p class="blog-excerpt">
-        Most of results-week advice is about what to do when things go wrong — but plenty of teenagers open their results and have genuinely done brilliantly, and that moment deserves its own kind of care. A calm parent's guide to celebrating GCSE results on Thursday 20 August 2026: why the "so what's next?" reflex backfires, what celebrating well actually looks like, letting your teen lead their own victory lap, and when to have the next-steps conversation (hint: not in the first hour). Plus a quiet word about the mixed feelings that show up even on a great day.
+        Most of results-week advice is about what to do when things go wrong, but plenty of teenagers open their results and have genuinely done brilliantly, and that moment deserves its own kind of care. A calm parent's guide to celebrating GCSE results on Thursday 20 August 2026: why the "so what's next?" reflex backfires, what celebrating well actually looks like, letting your teen lead their own victory lap, and when to have the next-steps conversation (hint: not in the first hour). Plus a quiet word about the mixed feelings that show up even on a great day.
       </p>
       <a href="/blog/posts/celebrating-gcse-results-without-pressure" class="blog-read-more">Read more →</a>
     </article>
@@ -98,7 +198,7 @@
       <time class="blog-date" datetime="2026-08-12">12 August 2026 · Student voice</time>
       <h2><a href="/blog/posts/find-gcse-results-from-years-ago">How to Find Out GCSE Results From Years Ago (Lost Certificates, Old Grades)</a></h2>
       <p class="blog-excerpt">
-        Lost your GCSE certificate, or just can't remember the grades? They're not gone — your results are on record and there's a clear, well-worn route to getting an official copy, whether you sat your exams two years ago or twenty. A calm, step-by-step guide to how to find out GCSE results from years ago: start with your old school or exam centre, then request a certified statement of results from the exam board, and use GOV.UK's guidance for the trickier cases — closed schools, name changes, and boards that no longer exist. Plus what it costs, how long it takes, and whether you even need the certificate or just the grades.
+        Lost your GCSE certificate, or just can't remember the grades? They're not gone. Your results are on record and there's a clear, well-worn route to getting an official copy, whether you sat your exams two years ago or twenty. A calm, step-by-step guide to how to find out GCSE results from years ago: start with your old school or exam centre, then request a certified statement of results from the exam board, and use GOV.UK's guidance for the trickier cases: closed schools, name changes, and boards that no longer exist. Plus what it costs, how long it takes, and whether you even need the certificate or just the grades.
       </p>
       <a href="/blog/posts/find-gcse-results-from-years-ago" class="blog-read-more">Read more →</a>
     </article>
@@ -106,7 +206,7 @@
       <time class="blog-date" datetime="2026-08-11">11 August 2026 · For parents</time>
       <h2><a href="/blog/posts/sixth-form-rejected-after-results">Sixth Form Said No? What Your Options Actually Are</a></h2>
       <p class="blog-excerpt">
-        A rejection from a sixth form or college feels like a door slamming — but on results day (Thursday 20 August 2026) it's almost never the end of the road. A calm, practical guide for parents to what actually comes next: how to check whether the decision is final, when a review of marking or an admission appeal is worth it, the other colleges and sixth forms still taking students after results day, apprenticeships and T-Levels, and the November resit route if it came down to English or Maths. Plus what to say — and what to skip — at home this week.
+        A rejection from a sixth form or college feels like a door slamming, but on results day (Thursday 20 August 2026) it's almost never the end of the road. A calm, practical guide for parents to what actually comes next: how to check whether the decision is final, when a review of marking or an admission appeal is worth it, the other colleges and sixth forms still taking students after results day, apprenticeships and T-Levels, and the November resit route if it came down to English or Maths. Plus what to say (and what to skip) at home this week.
       </p>
       <a href="/blog/posts/sixth-form-rejected-after-results" class="blog-read-more">Read more →</a>
     </article>
@@ -114,7 +214,7 @@
       <time class="blog-date" datetime="2026-08-10">10 August 2026 · Student voice</time>
       <h2><a href="/blog/posts/gcse-resits-november">GCSE Resits November 2026: Who Can, Who Should, and How It Works</a></h2>
       <p class="blog-excerpt">
-        Results day is Thursday 20 August — and if the grades you need don't land, GCSE resits in November 2026 are your next shot at English and Maths. A calm, no-drama guide to how the autumn series actually works: which subjects are on offer (English Language and Maths only), who can sit them, the dates that matter (entry around early October, exams early-to-mid November, results 14 January 2027), when it's free and when there's a fee, and how to decide whether November is the right move for you. Plus how to aim your revision at the exact spec points that cost you marks, without cramming your way there.
+        Results day is Thursday 20 August, and if the grades you need don't land, GCSE resits in November 2026 are your next shot at English and Maths. A calm, no-drama guide to how the autumn series actually works: which subjects are on offer (English Language and Maths only), who can sit them, the dates that matter (entry around early October, exams early-to-mid November, results 14 January 2027), when it's free and when there's a fee, and how to decide whether November is the right move for you. Plus how to aim your revision at the exact spec points that cost you marks, without cramming your way there.
       </p>
       <a href="/blog/posts/gcse-resits-november" class="blog-read-more">Read more →</a>
     </article>
@@ -122,7 +222,7 @@
       <time class="blog-date" datetime="2026-08-07">7 August 2026 · For parents</time>
       <h2><a href="/blog/posts/what-grades-do-you-need-for-sixth-form">What Grades Do You Need for Sixth Form? (And What Happens If You're Close)</a></h2>
       <p class="blog-excerpt">
-        With results landing Thursday 20 August 2026, plenty of families are quietly asking the same thing: what grades do you need for sixth form, and what happens if your teen lands just short? A calm parent's guide to the general picture — the common baseline of five GCSEs at grade 4–9 including English and Maths, the subject-specific grades that catch families out, and why a "close" result is often far more flexible than it feels. Plus reviews of marking, the November 2026 English and Maths resit route, and how to have the phone call that turns uncertainty into a plan. Check the specific place, treat "close" as a conversation not a verdict.
+        With results landing Thursday 20 August 2026, plenty of families are quietly asking the same thing: what grades do you need for sixth form, and what happens if your teen lands just short? A calm parent's guide to the general picture: the common baseline of five GCSEs at grade 4–9 including English and Maths, the subject-specific grades that catch families out, and why a "close" result is often far more flexible than it feels. Plus reviews of marking, the November 2026 English and Maths resit route, and how to have the phone call that turns uncertainty into a plan. Check the specific place, treat "close" as a conversation not a verdict.
       </p>
       <a href="/blog/posts/what-grades-do-you-need-for-sixth-form" class="blog-read-more">Read more →</a>
     </article>
@@ -130,7 +230,7 @@
       <time class="blog-date" datetime="2026-08-06">6 August 2026 · Parent voice</time>
       <h2><a href="/blog/posts/how-to-talk-to-teenager-about-bad-gcse-results">How to Talk to Your Teenager About Bad GCSE Results: What to Say, What to Skip</a></h2>
       <p class="blog-excerpt">
-        Knowing how to talk to your teenager about bad GCSE results isn't about the perfect speech — it's about which few things genuinely help in the first hour, and which well-meant instincts to skip. A calm, no-blame guide for parents: prepare your opening before the envelope, lead with feeling rather than fixing, keep it about them, and leave the big decisions (remarks, November 2026 resits, sixth-form conversations) for a day or two later. Results land Thursday 20 August 2026 — with a support footer if the day hits hard.
+        Knowing how to talk to your teenager about bad GCSE results isn't about the perfect speech. It's about which few things genuinely help in the first hour, and which well-meant instincts to skip. A calm, no-blame guide for parents: prepare your opening before the envelope, lead with feeling rather than fixing, keep it about them, and leave the big decisions (remarks, November 2026 resits, sixth-form conversations) for a day or two later. Results land Thursday 20 August 2026, with a support footer if the day hits hard.
       </p>
       <a href="/blog/posts/how-to-talk-to-teenager-about-bad-gcse-results" class="blog-read-more">Read more →</a>
     </article>
@@ -138,15 +238,15 @@
       <time class="blog-date" datetime="2026-08-05">5 August 2026 · Student voice</time>
       <h2><a href="/blog/posts/9-1-gcse-grading-system-explained">GCSE Grades Explained: What the 9–1 Grading System Actually Means</a></h2>
       <p class="blog-excerpt">
-        GCSE grades explained without the jargon: the 9–1 grading system runs from 9 at the top to 1 at the bottom, and grade 4 is a standard pass (5 is a strong pass). Here's what every number means, how the scale lines up with the old A*–G letters (7 ≈ A, 4 ≈ C, 1 ≈ G, and 9 sits above A*), what actually counts as a "pass", and why comparable outcomes keep the standard steady year to year. Results land Thursday 20 August 2026 — so you'll know exactly what you're looking at when you open the slip.
+        GCSE grades explained without the jargon: the 9–1 grading system runs from 9 at the top to 1 at the bottom, and grade 4 is a standard pass (5 is a strong pass). Here's what every number means, how the scale lines up with the old A*–G letters (7 ≈ A, 4 ≈ C, 1 ≈ G, and 9 sits above A*), what actually counts as a "pass", and why comparable outcomes keep the standard steady year to year. Results land Thursday 20 August 2026, so you'll know exactly what you're looking at when you open the slip.
       </p>
       <a href="/blog/posts/9-1-gcse-grading-system-explained" class="blog-read-more">Read more →</a>
     </article>
     <article class="blog-card">
       <time class="blog-date" datetime="2026-08-04">4 August 2026 · Student voice</time>
-      <h2><a href="/blog/posts/didnt-get-gcse-grades">"I Didn't Get the GCSE Grades I Needed" — What to Do Next, Calmly</a></h2>
+      <h2><a href="/blog/posts/didnt-get-gcse-grades">"I Didn't Get the GCSE Grades I Needed": What to Do Next, Calmly</a></h2>
       <p class="blog-excerpt">
-        Results land Thursday 20 August 2026 — and if the grades aren't the ones you needed, this is the calm, no-shame plan for what happens next. The big one first: nothing has to be decided on the day. Get clear on what actually happened, ask your school about a review of marking if you were close, and know your resit options — November 2026 covers English Language and Maths (exams 2–18 Nov, results 14 January 2027). Plus how to talk to your college, keeping it all in perspective, and where to turn if the day feels heavy. You've still got a clear set of next steps — take them one at a time.
+        Results land Thursday 20 August 2026, and if the grades aren't the ones you needed, this is the calm, no-shame plan for what happens next. The big one first: nothing has to be decided on the day. Get clear on what actually happened, ask your school about a review of marking if you were close, and know your resit options: November 2026 covers English Language and Maths (exams 2–18 Nov, results 14 January 2027). Plus how to talk to your college, keeping it all in perspective, and where to turn if the day feels heavy. You've still got a clear set of next steps. Take them one at a time.
       </p>
       <a href="/blog/posts/didnt-get-gcse-grades" class="blog-read-more">Read more →</a>
     </article>
@@ -154,7 +254,7 @@
       <time class="blog-date" datetime="2026-08-03">3 August 2026 · For parents</time>
       <h2><a href="/blog/posts/week-before-gcse-results">The Week Before GCSE Results: Supporting Your Teen Through the Wait</a></h2>
       <p class="blog-excerpt">
-        The exams are done, the grades are already decided, and results land Thursday 20 August 2026 — so the week before GCSE results is almost entirely waiting. How the house handles that wait matters more than anything you say. A calm parent's guide: why the wait is the hard part, the three quiet things that genuinely help, the well-meant habits to skip, a five-minute chat that settles the week, and where to turn if the wait is genuinely hard on your teen. Keep it calm, keep it normal, let the wait be just a wait.
+        The exams are done, the grades are already decided, and results land Thursday 20 August 2026, so the week before GCSE results is almost entirely waiting. How the house handles that wait matters more than anything you say. A calm parent's guide: why the wait is the hard part, the three quiet things that genuinely help, the well-meant habits to skip, a five-minute chat that settles the week, and where to turn if the wait is genuinely hard on your teen. Keep it calm, keep it normal, let the wait be just a wait.
       </p>
       <a href="/blog/posts/week-before-gcse-results" class="blog-read-more">Read more →</a>
     </article>
@@ -162,15 +262,15 @@
       <time class="blog-date" datetime="2026-07-23">23 July 2026 · For parents</time>
       <h2><a href="/blog/posts/gcse-revision-parent-dashboard">The GCSE Revision Parent Dashboard: Keeping Both of You in the Loop</a></h2>
       <p class="blog-excerpt">
-        There is rarely just one adult who cares how a teenager's revision is going. A GCSE revision parent dashboard lets two people supporting the same student see the same picture — on one account, without relaying it to each other every evening. A calm guide to keeping both of you in the loop: what a shared dashboard actually shows, why "in the loop" is not surveillance, how it earns its keep across two homes and co-parenting, and the nightly-update admin it quietly removes. Real visibility, without the drama.
+        There is rarely just one adult who cares how a teenager's revision is going. A GCSE revision parent dashboard lets two people supporting the same student see the same picture on one account, without relaying it to each other every evening. A calm guide to keeping both of you in the loop: what a shared dashboard actually shows, why "in the loop" is not surveillance, how it earns its keep across two homes and co-parenting, and the nightly-update admin it quietly removes. Real visibility, without the drama.
       </p>
       <a href="/blog/posts/gcse-revision-parent-dashboard" class="blog-read-more">Read more →</a>
     </article>
     <article class="blog-card">
       <time class="blog-date" datetime="2026-07-17">17 July 2026 · Student voice</time>
-      <h2><a href="/blog/posts/how-to-find-my-gcse-results">How to Find My GCSE Results — Online, In Person, or By Post</a></h2>
+      <h2><a href="/blog/posts/how-to-find-my-gcse-results">How to Find My GCSE Results: Online, In Person, or By Post</a></h2>
       <p class="blog-excerpt">
-        Wondering how to find my GCSE results? Here's the whole thing in plain English. Results day 2026 is Thursday 20 August, and there are more ways in than ever: in person from school from around 8am, online through the new Education Record app from 11am, or by post and email if you arrange it in advance. A calm, logistics-only guide to every route — plus what to sort this week so the day is one small errand, not a morning of guessing. No route leaves you locked out of your own grades.
+        Wondering how to find my GCSE results? Here's the whole thing in plain English. Results day 2026 is Thursday 20 August, and there are more ways in than ever: in person from school from around 8am, online through the new Education Record app from 11am, or by post and email if you arrange it in advance. A calm, logistics-only guide to every route, plus what to sort this week so the day is one small errand, not a morning of guessing. No route leaves you locked out of your own grades.
       </p>
       <a href="/blog/posts/how-to-find-my-gcse-results" class="blog-read-more">Read more →</a>
     </article>
@@ -178,7 +278,7 @@
       <time class="blog-date" datetime="2026-07-16">16 July 2026 · For parents</time>
       <h2><a href="/blog/posts/gcse-subject-coverage-tracker">GCSE Subject Coverage Tracker: A Map, Not a Guess</a></h2>
       <p class="blog-excerpt">
-        "Have they done enough?" is the question almost every parent ends up asking at 10pm — with no real way to answer it. A GCSE subject coverage tracker turns that anxious guess into something you can actually see: which topics across each subject have been covered, and which are still open. A calm, plain-English guide to using coverage as a shared map rather than surveillance — why hours are a poor measure of progress, how to talk about the gaps without pressure, and where the Subject Coverage view fits.
+        "Have they done enough?" is the question almost every parent ends up asking at 10pm, with no real way to answer it. A GCSE subject coverage tracker turns that anxious guess into something you can actually see: which topics across each subject have been covered, and which are still open. A calm, plain-English guide to using coverage as a shared map rather than surveillance: why hours are a poor measure of progress, how to talk about the gaps without pressure, and where the Subject Coverage view fits.
       </p>
       <a href="/blog/posts/gcse-subject-coverage-tracker" class="blog-read-more">Read more →</a>
     </article>
@@ -186,7 +286,7 @@
       <time class="blog-date" datetime="2026-07-15">15 July 2026 · Student voice</time>
       <h2><a href="/blog/posts/what-time-gcse-results-come-out">What Time Do GCSE Results Come Out? (And What to Do in the Hour Before)</a></h2>
       <p class="blog-excerpt">
-        You've got the date. The question that actually keeps you up is narrower: what time do GCSE results come out, and what do you do in the hour before they land? The short answer — from 8am in person and 11am online on Thursday 20 August 2026. The useful answer is a calm, logistics-only plan for that jittery hour: how to confirm your school's exact door time, why you genuinely can't peek the night before, who to have with you at 8am, and what to do if you can't be there on the day. No grade talk — just the plan.
+        You've got the date. The question that actually keeps you up is narrower: what time do GCSE results come out, and what do you do in the hour before they land? The short answer: from 8am in person and 11am online on Thursday 20 August 2026. The useful answer is a calm, logistics-only plan for that jittery hour: how to confirm your school's exact door time, why you genuinely can't peek the night before, who to have with you at 8am, and what to do if you can't be there on the day. No grade talk. Just the plan.
       </p>
       <a href="/blog/posts/what-time-gcse-results-come-out" class="blog-read-more">Read more →</a>
     </article>
@@ -194,7 +294,7 @@
       <time class="blog-date" datetime="2026-07-14">14 July 2026 · For parents</time>
       <h2><a href="/blog/posts/how-to-motivate-teenager-to-revise">How to Motivate a Teenager to Revise: Setting Targets You Both Agree On</a></h2>
       <p class="blog-excerpt">
-        The reward-for-hours playbook usually curdles into a haggle neither of you enjoys. There's a calmer way to motivate a teenager to revise — set a target they helped choose, then attach the reward to that. A parent's guide to why collaborative goals beat imposed ones, how to run a ten-minute Sunday check-in instead of a nightly interrogation, and what to do on the weeks motivation just won't come.
+        The reward-for-hours playbook usually curdles into a haggle neither of you enjoys. There's a calmer way to motivate a teenager to revise: set a target they helped choose, then attach the reward to that. A parent's guide to why collaborative goals beat imposed ones, how to run a ten-minute Sunday check-in instead of a nightly interrogation, and what to do on the weeks motivation just won't come.
       </p>
       <a href="/blog/posts/how-to-motivate-teenager-to-revise" class="blog-read-more">Read more →</a>
     </article>
@@ -202,7 +302,7 @@
       <time class="blog-date" datetime="2026-07-13">13 July 2026 · Student voice</time>
       <h2><a href="/blog/posts/gcse-results-day-2026-time">When Is GCSE Results Day 2026? The Time Results Actually Land</a></h2>
       <p class="blog-excerpt">
-        The short answer: Thursday 20 August 2026. The useful answer is what time results actually land — from around 8am if you collect in person, and from 11am online in England via the new Education Record app. A calm, logistics-only guide: how to find your school's exact collection time, what to do the night before, and every way to get your results if you can't be there on the day. No drama, no grade talk — just the plan.
+        The short answer: Thursday 20 August 2026. The useful answer is what time results actually land: from around 8am if you collect in person, and from 11am online in England via the new Education Record app. A calm, logistics-only guide: how to find your school's exact collection time, what to do the night before, and every way to get your results if you can't be there on the day. No drama, no grade talk. Just the plan.
       </p>
       <a href="/blog/posts/gcse-results-day-2026-time" class="blog-read-more">Read more →</a>
     </article>
@@ -210,7 +310,7 @@
       <time class="blog-date" datetime="2026-07-10">10 July 2026 · Student voice</time>
       <h2><a href="/blog/posts/how-much-revision-per-day-gcse">How Much Revision a Day for GCSE? The Honest Answer</a></h2>
       <p class="blog-excerpt">
-        Not the number from a colour-coded timetable someone posted at midnight — the number you can actually hit on a Tuesday when you're tired. Around two focused hours, most days, split across a few subjects. Why six-hour marathons mostly aren't six hours, why spreading the same time across days beats packing it into one, and why a twenty-minute day is nothing to feel bad about.
+        Not the number from a colour-coded timetable someone posted at midnight: the number you can actually hit on a Tuesday when you're tired. Around two focused hours, most days, split across a few subjects. Why six-hour marathons mostly aren't six hours, why spreading the same time across days beats packing it into one, and why a twenty-minute day is nothing to feel bad about.
       </p>
       <a href="/blog/posts/how-much-revision-per-day-gcse" class="blog-read-more">Read more →</a>
     </article>
@@ -218,7 +318,7 @@
       <time class="blog-date" datetime="2026-07-09">9 July 2026 · For parents</time>
       <h2><a href="/blog/posts/how-to-help-teenager-revise-effectively">How to Help Your Teenager Revise Effectively (Why One Subject All Day Doesn't Work)</a></h2>
       <p class="blog-excerpt">
-        "I'm just going to do Maths all day" sounds like commitment. It's close to the least efficient revision plan available. A plain-English guide for parents to the two ideas that actually build durable memory — spacing sessions out and interleaving subjects — why the effective method feels worse in the moment, and the one question worth asking instead of hovering.
+        "I'm just going to do Maths all day" sounds like commitment. It's close to the least efficient revision plan available. A plain-English guide for parents to the two ideas that actually build durable memory (spacing sessions out and interleaving subjects): why the effective method feels worse in the moment, and the one question worth asking instead of hovering.
       </p>
       <a href="/blog/posts/how-to-help-teenager-revise-effectively" class="blog-read-more">Read more →</a>
     </article>
@@ -226,7 +326,7 @@
       <time class="blog-date" datetime="2026-07-08">8 July 2026 · For students</time>
       <h2><a href="/blog/posts/spaced-repetition-schedule-gcse">A Spaced Repetition Schedule for GCSE: The Intervals That Work</a></h2>
       <p class="blog-excerpt">
-        Spacing your revision beats cramming — but only if you get the timing right. This is the practical version: the exact intervals that make a topic stick (the 1-2-4-7 pattern), how to build your own review schedule in five minutes, a worked example across a term, and what to do when you inevitably fall behind.
+        Spacing your revision beats cramming, but only if you get the timing right. This is the practical version: the exact intervals that make a topic stick (the 1-2-4-7 pattern), how to build your own review schedule in five minutes, a worked example across a term, and what to do when you inevitably fall behind.
       </p>
       <a href="/blog/posts/spaced-repetition-schedule-gcse" class="blog-read-more">Read more →</a>
     </article>
@@ -234,7 +334,7 @@
       <time class="blog-date" datetime="2026-07-07">7 July 2026 · For parents</time>
       <h2><a href="/blog/posts/active-recall-gcse-revision">Active Recall for GCSE Revision: Why the Quiet Method Works</a></h2>
       <p class="blog-excerpt">
-        Walk past your teenager mid-revision and it can look like nothing's happening — a closed book and a bit of quiet writing, no busy highlighting. That quiet is the point. A calm, evidence-led guide to active recall for GCSE revision: why writing from memory beats re-reading, and how to support it without hovering.
+        Walk past your teenager mid-revision and it can look like nothing's happening: a closed book and a bit of quiet writing, no busy highlighting. That quiet is the point. A calm, evidence-led guide to active recall for GCSE revision: why writing from memory beats re-reading, and how to support it without hovering.
       </p>
       <a href="/blog/posts/active-recall-gcse-revision" class="blog-read-more">Read more →</a>
     </article>
@@ -242,7 +342,7 @@
       <time class="blog-date" datetime="2026-07-06">6 July 2026 · For students</time>
       <h2><a href="/blog/posts/leitner-system-gcse-flashcards">The Leitner System: Flashcards Done Properly for GCSE</a></h2>
       <p class="blog-excerpt">
-        You own flashcards, or you've thought about making some — but flipping through the whole stack front to back isn't revision. The Leitner system fixes that with one small change: it decides which cards you see and when, sending the ones you get wrong back sooner and the ones you know further away. A plain-English guide to running the box method properly.
+        You own flashcards, or you've thought about making some, but flipping through the whole stack front to back isn't revision. The Leitner system fixes that with one small change: it decides which cards you see and when, sending the ones you get wrong back sooner and the ones you know further away. A plain-English guide to running the box method properly.
       </p>
       <a href="/blog/posts/leitner-system-gcse-flashcards" class="blog-read-more">Read more →</a>
     </article>
@@ -250,7 +350,7 @@
       <time class="blog-date" datetime="2026-07-03">3 July 2026 · For students</time>
       <h2><a href="/blog/posts/what-to-do-after-gcses-in-summer">What to Do After GCSEs in Summer: Five Things Actually Worth Doing (None of Them Revision)</a></h2>
       <p class="blog-excerpt">
-        Exams are done and the whole summer's sitting there with nothing timetabled in it. Here are five things genuinely worth doing over the break — proper rest, seeing your friends, and a few more — and not one of them is revision. A warm, no-pressure guide for students who've just finished.
+        Exams are done and the whole summer's sitting there with nothing timetabled in it. Here are five things genuinely worth doing over the break (proper rest, seeing your friends, and a few more), and not one of them is revision. A warm, no-pressure guide for students who've just finished.
       </p>
       <a href="/blog/posts/what-to-do-after-gcses-in-summer" class="blog-read-more">Read more →</a>
     </article>
@@ -258,7 +358,7 @@
       <time class="blog-date" datetime="2026-07-02">2 July 2026 · For parents</time>
       <h2><a href="/blog/posts/summer-before-sixth-form-catch-up">GCSE Summer Break Activities: Does Your Teen Need to Catch Up Before Sixth Form?</a></h2>
       <p class="blog-excerpt">
-        The exams are done and the summer stretches ahead — but should they be catching up before sixth form? A calm parent's guide to the three real signals that a little preparation would help, and the low-pressure ways to act on them without turning the holidays into homework.
+        The exams are done and the summer stretches ahead, but should they be catching up before sixth form? A calm parent's guide to the three real signals that a little preparation would help, and the low-pressure ways to act on them without turning the holidays into homework.
       </p>
       <a href="/blog/posts/summer-before-sixth-form-catch-up" class="blog-read-more">Read more →</a>
     </article>
@@ -266,7 +366,7 @@
       <time class="blog-date" datetime="2026-07-01">1 July 2026 · For students</time>
       <h2><a href="/blog/posts/what-is-spaced-repetition-gcse">What Is Spaced Repetition? A Simple Guide for GCSE Students</a></h2>
       <p class="blog-excerpt">
-        Revised something well on Monday and lost it by Friday? That's just how memory works. What is spaced repetition — and why does revisiting a topic just before you forget it beat cramming every time? A plain-English guide, plus a simple schedule you can actually stick to.
+        Revised something well on Monday and lost it by Friday? That's just how memory works. What is spaced repetition, and why does revisiting a topic just before you forget it beat cramming every time? A plain-English guide, plus a simple schedule you can actually stick to.
       </p>
       <a href="/blog/posts/what-is-spaced-repetition-gcse" class="blog-read-more">Read more →</a>
     </article>
@@ -274,7 +374,7 @@
       <time class="blog-date" datetime="2026-06-30">30 June 2026 · For parents</time>
       <h2><a href="/blog/posts/summer-after-gcses-job-bridging-rest">What to Do in Summer After GCSEs: Job, Bridging Work, or Just Rest?</a></h2>
       <p class="blog-excerpt">
-        The exams are over and a new question moves to the top of the pile: what to do in summer after GCSEs? A calm decision guide to the three honest options — a summer job, a little bridging work, or genuine rest — and how to choose together without the pressure.
+        The exams are over and a new question moves to the top of the pile: what to do in summer after GCSEs? A calm decision guide to the three honest options (a summer job, a little bridging work, or genuine rest), and how to choose together without the pressure.
       </p>
       <a href="/blog/posts/summer-after-gcses-job-bridging-rest" class="blog-read-more">Read more →</a>
     </article>
@@ -282,13 +382,13 @@
       <time class="blog-date" datetime="2026-06-29">29 June 2026 · For students</time>
       <h2><a href="/blog/posts/gcse-revision-timetable">How to Build a GCSE Revision Timetable That Actually Works</a></h2>
       <p class="blog-excerpt">
-        Made a revision timetable that died by Wednesday? Most do — because they're built for a perfect week that never happens. Here's how to build a GCSE revision timetable you'll actually stick to: short blocks, spacing, real tasks, and rest written in on purpose.
+        Made a revision timetable that died by Wednesday? Most do. They're built for a perfect week that never happens. Here's how to build a GCSE revision timetable you'll actually stick to: short blocks, spacing, real tasks, and rest written in on purpose.
       </p>
       <a href="/blog/posts/gcse-revision-timetable" class="blog-read-more">Read more →</a>
     </article>
     <article class="blog-card">
       <time class="blog-date" datetime="2026-06-26">26 June 2026 · For students</time>
-      <h2><a href="/blog/posts/last-gcse-paper-final-days">Your Last GCSE Paper: What to Do in the Final Days — and What to Stop Doing</a></h2>
+      <h2><a href="/blog/posts/last-gcse-paper-final-days">Your Last GCSE Paper: What to Do in the Final Days, and What to Stop Doing</a></h2>
       <p class="blog-excerpt">
         One paper to go, maybe two. Working out how to revise for your last GCSE exam? The honest answer is less than you think, and more carefully than you think. Here's what's worth doing in the final days, what's quietly working against you, and how to finish calm rather than wrung out.
       </p>
@@ -298,7 +398,7 @@
       <time class="blog-date" datetime="2026-06-25">25 June 2026 · For parents</time>
       <h2><a href="/blog/posts/after-gcses-what-to-do-flat-week">After GCSEs, What to Do When the Last Exam Is Finished: A Parent's Guide to the Flat Week</a></h2>
       <p class="blog-excerpt">
-        The last paper is almost here, and then it all just stops. After GCSEs, what to do with the strange, flat week that follows? Usually much less than you'd think. Here's what to expect from your teenager once the exams end — and why the anticlimax is completely normal.
+        The last paper is almost here, and then it all just stops. After GCSEs, what to do with the strange, flat week that follows? Usually much less than you'd think. Here's what to expect from your teenager once the exams end, and why the anticlimax is completely normal.
       </p>
       <a href="/blog/posts/after-gcses-what-to-do-flat-week" class="blog-read-more">Read more →</a>
     </article>
@@ -306,7 +406,7 @@
       <time class="blog-date" datetime="2026-06-24">24 June 2026 · Student voice</time>
       <h2><a href="/blog/posts/gcse-religious-studies-revision">GCSE Religious Studies Revision: How to Keep Two Contrasting Viewpoints Distinct</a></h2>
       <p class="blog-excerpt">
-        The part of GCSE religious studies revision that quietly costs marks isn't remembering the content — it's keeping two contrasting views separate under exam pressure. Here's a simple belief-reason-contrast-evaluation scaffold that stops them blurring into one beige answer on the page.
+        The part of GCSE religious studies revision that quietly costs marks isn't remembering the content. It's keeping two contrasting views separate under exam pressure. Here's a simple belief-reason-contrast-evaluation scaffold that stops them blurring into one beige answer on the page.
       </p>
       <a href="/blog/posts/gcse-religious-studies-revision" class="blog-read-more">Read more →</a>
     </article>
@@ -314,7 +414,7 @@
       <time class="blog-date" datetime="2026-06-23">23 June 2026 · For parents</time>
       <h2><a href="/blog/posts/what-to-do-after-gcses-options">What to Do After GCSEs: The Options Conversation to Have Before Results Day</a></h2>
       <p class="blog-excerpt">
-        The exams are nearly done, and a new question is moving up the list: what to do after GCSEs. The options — sixth form, college, or an apprenticeship — don't need deciding this week, but they're worth talking through now, in the calm of summer, rather than the rush of results morning.
+        The exams are nearly done, and a new question is moving up the list: what to do after GCSEs. The options (sixth form, college, or an apprenticeship) don't need deciding this week, but they're worth talking through now, in the calm of summer, rather than the rush of results morning.
       </p>
       <a href="/blog/posts/what-to-do-after-gcses-options" class="blog-read-more">Read more →</a>
     </article>
@@ -322,7 +422,7 @@
       <time class="blog-date" datetime="2026-06-22">22 June 2026 · Student voice</time>
       <h2><a href="/blog/posts/gcse-computer-science-trace-tables">GCSE Computer Science Revision Tips: The Trace-Table Trick for Algorithm Questions</a></h2>
       <p class="blog-excerpt">
-        If one part of the paper reliably makes you sweat, it's the algorithm question — the one that hands you a chunk of pseudocode and asks what it outputs. Most of these GCSE computer science revision tips boil down to a single habit: stop running the code in your head, and start writing a trace table instead.
+        If one part of the paper reliably makes you sweat, it's the algorithm question: the one that hands you a chunk of pseudocode and asks what it outputs. Most of these GCSE computer science revision tips boil down to a single habit: stop running the code in your head, and start writing a trace table instead.
       </p>
       <a href="/blog/posts/gcse-computer-science-trace-tables" class="blog-read-more">Read more →</a>
     </article>
@@ -330,7 +430,7 @@
       <time class="blog-date" datetime="2026-06-19">19 June 2026 · Student voice</time>
       <h2><a href="/blog/posts/how-to-identify-weak-areas-gcse-revision">How to Identify Weak Areas in Your GCSE Revision (Not the Ones You Think You Have)</a></h2>
       <p class="blog-excerpt">
-        You've got a handful of days until your last paper. The worst thing you can do with them is re-revise the stuff you already know. Here's how to find the topics you actually stall on — and spend your last hours where they count.
+        You've got a handful of days until your last paper. The worst thing you can do with them is re-revise the stuff you already know. Here's how to find the topics you actually stall on, and spend your last hours where they count.
       </p>
       <a href="/blog/posts/how-to-identify-weak-areas-gcse-revision" class="blog-read-more">Read more →</a>
     </article>
@@ -338,7 +438,7 @@
       <time class="blog-date" datetime="2026-06-18">18 June 2026 · For parents</time>
       <h2><a href="/blog/posts/how-to-talk-to-teenager-about-revision">How to Talk to Your Teenager About Revision</a></h2>
       <p class="blog-excerpt">
-        It's the final week of the exam window, and most evenings end the same way: you ask how revision's going and get a one-word answer. Knowing how to talk to your teenager about revision isn't about the perfect speech — it's one question worth asking, and the nightly one worth dropping.
+        It's the final week of the exam window, and most evenings end the same way: you ask how revision's going and get a one-word answer. Knowing how to talk to your teenager about revision isn't about the perfect speech. It's one question worth asking, and the nightly one worth dropping.
       </p>
       <a href="/blog/posts/how-to-talk-to-teenager-about-revision" class="blog-read-more">Read more →</a>
     </article>
@@ -346,7 +446,7 @@
       <time class="blog-date" datetime="2026-06-17">17 June 2026 · Student voice</time>
       <h2><a href="/blog/posts/gcse-english-language-paper-2-tips">GCSE English Language Paper 2: Handling a Question on a Topic You Know Nothing About</a></h2>
       <p class="blog-excerpt">
-        The scariest line on the page isn't a hard word — it's a topic you've never thought about in your life. Here's the reframe that fixes it, and the structure you can lean on every single time.
+        The scariest line on the page isn't a hard word. It's a topic you've never thought about in your life. Here's the reframe that fixes it, and the structure you can lean on every single time.
       </p>
       <a href="/blog/posts/gcse-english-language-paper-2-tips" class="blog-read-more">Read more →</a>
     </article>
@@ -354,7 +454,7 @@
       <time class="blog-date" datetime="2026-06-16">16 June 2026 · For parents</time>
       <h2><a href="/blog/posts/how-long-should-a-teenager-revise">How Long Should a Teenager Revise in One Sitting?</a></h2>
       <p class="blog-excerpt">
-        It's the final exam week, you glance at the clock, and the maths is doing itself in your head: they were only at the desk for half an hour. So how long should a teenager revise in one sitting — and is short actually a problem? Usually not. Here's the calmer way to think about it.
+        It's the final exam week, you glance at the clock, and the maths is doing itself in your head: they were only at the desk for half an hour. So how long should a teenager revise in one sitting, and is short actually a problem? Usually not. Here's the calmer way to think about it.
       </p>
       <a href="/blog/posts/how-long-should-a-teenager-revise" class="blog-read-more">Read more →</a>
     </article>
@@ -362,7 +462,7 @@
       <time class="blog-date" datetime="2026-06-15">15 June 2026 · Student voice</time>
       <h2><a href="/blog/posts/gcse-biology-required-practicals">GCSE Biology Required Practicals Revision: Revise Them Like Exam Answers</a></h2>
       <p class="blog-excerpt">
-        The required practicals are some of the most predictable marks in the whole course — and most people revise them as an afterthought. Here's how to revise them like the exam answers they actually are.
+        The required practicals are some of the most predictable marks in the whole course, and most people revise them as an afterthought. Here's how to revise them like the exam answers they actually are.
       </p>
       <a href="/blog/posts/gcse-biology-required-practicals" class="blog-read-more">Read more →</a>
     </article>
@@ -370,7 +470,7 @@
       <time class="blog-date" datetime="2026-06-12">12 June 2026 · Student voice</time>
       <h2><a href="/blog/posts/last-two-weeks-gcse-revision">Last Week GCSE Revision: What to Change in the Final Fortnight</a></h2>
       <p class="blog-excerpt">
-        You're roughly two weeks out from your last paper. The work you put in over the past few months is already done and it still counts. What's left isn't about cramming more in — it's about spending the hours you've got left in the right places. Here's what actually changes for your last week GCSE revision, and what to leave alone.
+        You're roughly two weeks out from your last paper. The work you put in over the past few months is already done and it still counts. What's left isn't about cramming more in. It's about spending the hours you've got left in the right places. Here's what actually changes for your last week GCSE revision, and what to leave alone.
       </p>
       <a href="/blog/posts/last-two-weeks-gcse-revision" class="blog-read-more">Read more →</a>
     </article>
@@ -378,7 +478,7 @@
       <time class="blog-date" datetime="2026-06-11">11 June 2026 · For parents</time>
       <h2><a href="/blog/posts/talking-to-teenager-after-gcse-exam">Talking to Your Teenager After a GCSE Exam: When They Won't Say a Word</a></h2>
       <p class="blog-excerpt">
-        They get in the car, or they come through the door, and you ask the only question on your mind — "how did it go?" — and you get a shrug, a "fine", or nothing at all. If you're finding talking to your teenager after a GCSE exam almost impossible right now, you are not doing anything wrong, and neither are they. The silence is one of the most normal things in the world.
+        They get in the car, or they come through the door, and you ask the only question on your mind ("how did it go?") and you get a shrug, a "fine", or nothing at all. If you're finding talking to your teenager after a GCSE exam almost impossible right now, you are not doing anything wrong, and neither are they. The silence is one of the most normal things in the world.
       </p>
       <a href="/blog/posts/talking-to-teenager-after-gcse-exam" class="blog-read-more">Read more →</a>
     </article>
@@ -387,7 +487,7 @@
       <time class="blog-date" datetime="2026-06-10">10 June 2026 · Student voice</time>
       <h2><a href="/blog/posts/gcse-geography-case-studies-revision">GCSE Geography Case Studies: Three You Can Actually Memorise This Weekend</a></h2>
       <p class="blog-excerpt">
-        Case studies are where GCSE geography marks live — and where most people quietly lose them. Effective GCSE geography case studies revision isn't about cramming whole pages: it's learning the place, a handful of facts examiners actually reward, and one hook to pull it all back. Here's how to nail three this weekend.
+        Case studies are where GCSE geography marks live, and where most people quietly lose them. Effective GCSE geography case studies revision isn't about cramming whole pages: it's learning the place, a handful of facts examiners actually reward, and one hook to pull it all back. Here's how to nail three this weekend.
       </p>
       <a href="/blog/posts/gcse-geography-case-studies-revision" class="blog-read-more">Read more →</a>
     </article>
@@ -396,7 +496,7 @@
       <time class="blog-date" datetime="2026-06-09">9 June 2026 · For parents</time>
       <h2><a href="/blog/posts/gcse-mark-scheme-parents-guide">GCSE Mark Schemes: A Parents' Guide to What Examiners Are Looking For</a></h2>
       <p class="blog-excerpt">
-        Past-paper practice is in full swing, your teenager is sitting one with the answers open beside them, and you'd love to help — except you last did this subject decades ago, if at all. Good news: you don't have to know the chemistry, or the poem, or the history to be useful. You just have to know how a mark scheme thinks.
+        Past-paper practice is in full swing, your teenager is sitting one with the answers open beside them, and you'd love to help, except you last did this subject decades ago, if at all. Good news: you don't have to know the chemistry, or the poem, or the history to be useful. You just have to know how a mark scheme thinks.
       </p>
       <a href="/blog/posts/gcse-mark-scheme-parents-guide" class="blog-read-more">Read more →</a>
     </article>
@@ -405,7 +505,7 @@
       <time class="blog-date" datetime="2026-06-08">8 June 2026 · Student voice</time>
       <h2><a href="/blog/posts/gcse-chemistry-common-mistakes">GCSE Chemistry Common Mistakes: The Marks Examiners Take Off</a></h2>
       <p class="blog-excerpt">
-        You probably know more chemistry than your mark suggests. Most of the GCSE chemistry common mistakes aren't about the science being too hard — they're tiny, repeatable slips that quietly hand marks back to the examiner. Here's how to stop.
+        You probably know more chemistry than your mark suggests. Most of the GCSE chemistry common mistakes aren't about the science being too hard. They're tiny, repeatable slips that quietly hand marks back to the examiner. Here's how to stop.
       </p>
       <a href="/blog/posts/gcse-chemistry-common-mistakes" class="blog-read-more">Read more →</a>
     </article>
@@ -414,7 +514,7 @@
       <time class="blog-date" datetime="2026-06-05">5 June 2026 · Student voice</time>
       <h2><a href="/blog/posts/gcse-history-revision-named-people">GCSE History: How to Remember 30 Named People When You Can Only Hold 4 in Your Head</a></h2>
       <p class="blog-excerpt">
-        You open your notes and there are thirty people staring back at you. Signatories, leaders, reformers, rebels. And your brain — being a normal human brain — can comfortably hold about four of them at once. Here are the GCSE History revision techniques that fix that gap, without you having to chant a list until midnight.
+        You open your notes and there are thirty people staring back at you. Signatories, leaders, reformers, rebels. And your brain (being a normal human brain) can comfortably hold about four of them at once. Here are the GCSE History revision techniques that fix that gap, without you having to chant a list until midnight.
       </p>
       <a href="/blog/posts/gcse-history-revision-named-people" class="blog-read-more">Read more →</a>
     </article>
@@ -432,7 +532,7 @@
       <time class="blog-date" datetime="2026-06-03">3 June 2026 · Student voice</time>
       <h2><a href="/blog/posts/gcse-combined-science-vs-triple-science">GCSE Combined Science vs Triple Science: How to Revise Differently Between Papers</a></h2>
       <p class="blog-excerpt">
-        Same topic names, different papers, different amount of content — and if you revise both the identical way, you waste time. Here are the GCSE combined science revision tips that sort out what to actually do, whether you're on Combined or Triple.
+        Same topic names, different papers, different amount of content. If you revise both the identical way, you waste time. Here are the GCSE combined science revision tips that sort out what to actually do, whether you're on Combined or Triple.
       </p>
       <a href="/blog/posts/gcse-combined-science-vs-triple-science" class="blog-read-more">Read more →</a>
     </article>
@@ -441,7 +541,7 @@
       <time class="blog-date" datetime="2026-06-02">2 June 2026 · For parents</time>
       <h2><a href="/blog/posts/gcse-motivation-during-exams">GCSE Motivation During Exams: What Actually Helps When They Won't Get Going</a></h2>
       <p class="blog-excerpt">
-        Two exams next week and your teenager is flat on the sofa, phone in hand, swearing they'll "do it later." Before you have the same argument for the third time today — here's what actually moves the needle, and what just makes it worse.
+        Two exams next week and your teenager is flat on the sofa, phone in hand, swearing they'll "do it later." Before you have the same argument for the third time today, here's what actually moves the needle, and what just makes it worse.
       </p>
       <a href="/blog/posts/gcse-motivation-during-exams" class="blog-read-more">Read more →</a>
     </article>
@@ -450,7 +550,7 @@
       <time class="blog-date" datetime="2026-06-01">1 June 2026</time>
       <h2><a href="/blog/posts/gcse-revision-during-half-term">GCSE Revision During Half Term: Revise Hard, Rest Harder</a></h2>
       <p class="blog-excerpt">
-        The break's over and you're staring down your first full week of study leave with no timetable and no one telling you what to do. The honest answer to GCSE revision during half term: split the week on purpose — revise hard, then rest harder. Both, not one or the other.
+        The break's over and you're staring down your first full week of study leave with no timetable and no one telling you what to do. The honest answer to GCSE revision during half term: split the week on purpose. Revise hard, then rest harder. Both, not one or the other.
       </p>
       <a href="/blog/posts/gcse-revision-during-half-term" class="blog-read-more">Read more →</a>
     </article>
@@ -459,7 +559,7 @@
       <time class="blog-date" datetime="2026-05-30">30 May 2026</time>
       <h2><a href="/blog/posts/gcse-revision-techniques-that-actually-work">The Only Two GCSE Revision Techniques That Actually Work</a></h2>
       <p class="blog-excerpt">
-        Strip away the highlighters, the pretty mind maps and the colour-coded timetables, and the research lands on a surprisingly short list. There are really only two GCSE revision techniques that actually work — and almost no teenager uses either of them by default.
+        Strip away the highlighters, the pretty mind maps and the colour-coded timetables, and the research lands on a surprisingly short list. There are really only two GCSE revision techniques that actually work, and almost no teenager uses either of them by default.
       </p>
       <a href="/blog/posts/gcse-revision-techniques-that-actually-work" class="blog-read-more">Read more →</a>
     </article>
@@ -486,7 +586,7 @@
       <time class="blog-date" datetime="2026-05-27">27 May 2026</time>
       <h2><a href="/blog/posts/gcse-maths-paper-2-topics">GCSE Maths Paper 2: The Question Types That Almost Always Show Up</a></h2>
       <p class="blog-excerpt">
-        Maths Paper 2 is a week today. It's the calculator paper, the formula sheet sits inside the booklet, and the question types repeat year on year. Here's what's worth your evening this week — and the drill that turns "I've revised it" into "I can actually do it on the day".
+        Maths Paper 2 is a week today. It's the calculator paper, the formula sheet sits inside the booklet, and the question types repeat year on year. Here's what's worth your evening this week, and the drill that turns "I've revised it" into "I can actually do it on the day".
       </p>
       <a href="/blog/posts/gcse-maths-paper-2-topics" class="blog-read-more">Read more →</a>
     </article>
@@ -495,7 +595,7 @@
       <time class="blog-date" datetime="2026-05-26">26 May 2026</time>
       <h2><a href="/blog/posts/exam-week-sleep-food-1am-panic">Supporting Your Teenager Through GCSE Exam Week: Sleep, Food, and the 1am Panic</a></h2>
       <p class="blog-excerpt">
-        It's half-term. The papers are paused, not finished. And at some point this week your Year 11 will appear in the kitchen at 1am convinced they haven't done enough. Here's what that's actually about — and what to do.
+        It's half-term. The papers are paused, not finished. And at some point this week your Year 11 will appear in the kitchen at 1am convinced they haven't done enough. Here's what that's actually about, and what to do.
       </p>
       <a href="/blog/posts/exam-week-sleep-food-1am-panic" class="blog-read-more">Read more →</a>
     </article>
@@ -504,7 +604,7 @@
       <time class="blog-date" datetime="2026-05-25">25 May 2026</time>
       <h2><a href="/blog/posts/gcse-physics-formula-sheet-2026">GCSE Physics Formula Sheet 2026: How to Actually Use It Without Freezing</a></h2>
       <p class="blog-excerpt">
-        Every equation is on the sheet they hand you in the paper. Knowing it's there isn't the same as using it in 90 seconds — here's the drill that fixes that.
+        Every equation is on the sheet they hand you in the paper. Knowing it's there isn't the same as using it in 90 seconds. Here's the drill that fixes that.
       </p>
       <a href="/blog/posts/gcse-physics-formula-sheet-2026" class="blog-read-more">Read more →</a>
     </article>
@@ -513,7 +613,7 @@
       <time class="blog-date" datetime="2026-05-24">24 May 2026</time>
       <h2><a href="/blog/posts/half-term-revision-leitner-box">GCSE Half-Term Revision: The Box System That Actually Works</a></h2>
       <p class="blog-excerpt">
-        Half-term has just started and your Year 11 still has papers next week. Here's the single most evidence-backed revision technique they can use this week — and why almost no one does it properly.
+        Half-term has just started and your Year 11 still has papers next week. Here's the single most evidence-backed revision technique they can use this week, and why almost no one does it properly.
       </p>
       <a href="/blog/posts/half-term-revision-leitner-box" class="blog-read-more">Read more →</a>
     </article>
@@ -522,7 +622,7 @@
       <time class="blog-date" datetime="2026-05-23">23 May 2026</time>
       <h2><a href="/blog/posts/night-before-gcse-exam">How to Revise the Night Before a GCSE Exam</a></h2>
       <p class="blog-excerpt">
-        It's late, you've got a paper in the morning, and you're tempted to cram every topic you haven't quite nailed. Here's what actually works — and what to stop doing.
+        It's late, you've got a paper in the morning, and you're tempted to cram every topic you haven't quite nailed. Here's what actually works, and what to stop doing.
       </p>
       <a href="/blog/posts/night-before-gcse-exam" class="blog-read-more">Read more →</a>
     </article>
@@ -531,12 +631,24 @@
       <time class="blog-date" datetime="2026-05-22">22 May 2026</time>
       <h2><a href="/blog/posts/welcome-to-gcse-boss">Welcome to GCSE Boss</a></h2>
       <p class="blog-excerpt">
-        We're building GCSE revision around the specification your school actually teaches —
+        We're building GCSE revision around the specification your school actually teaches:
         every spec point, every board. Here's what that means for students and parents.
       </p>
       <a href="/blog/posts/welcome-to-gcse-boss" class="blog-read-more">Read more →</a>
     </article>
   </div>
+
+  <nav class="blog-pagination" id="blog-pagination" aria-label="Blog pagination" hidden>
+    <button type="button" class="blog-page-btn" id="blog-prev">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+      Previous
+    </button>
+    <span class="blog-page-label" id="blog-page-label">Page 1</span>
+    <button type="button" class="blog-page-btn" id="blog-next">
+      Next
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+    </button>
+  </nav>
 </main>
 
 <footer>
@@ -582,5 +694,6 @@
 
 
 <script src="/js/footer.js?v=1.0.0" defer></script>
+<script src="/js/blog-index.js?v=1.0.0" defer></script>
 </body>
 </html>
