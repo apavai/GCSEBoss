@@ -970,12 +970,12 @@ main.blog-index h1 {
 main.blog-index .lede {
   font-size: 19px;
   color: var(--muted);
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   line-height: 1.5;
 }
 
 .blog-topics {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -988,6 +988,7 @@ main.blog-index .lede {
   min-height: 44px;
   padding: 10px 16px;
   border: 0;
+  border-radius: 10px;
   background: var(--brand);
   color: #fff;
   font: inherit;
@@ -998,6 +999,9 @@ main.blog-index .lede {
   cursor: pointer;
 }
 .blog-topics-trigger:hover { background: var(--brand-dark); }
+.blog-topics-trigger[aria-expanded="true"] {
+  border-radius: 10px 10px 0 0;
+}
 .blog-topics-toggle {
   display: flex;
   align-items: center;
