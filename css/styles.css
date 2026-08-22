@@ -1075,13 +1075,18 @@ main.blog-index .lede {
 }
 
 .blog-pagination {
+  position: static;
+  z-index: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin-top: 40px;
-  padding-top: 28px;
-  border-top: 1px solid var(--line);
+  margin-top: 32px;
+  padding: 0;
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border: 0;
 }
 .blog-pagination[hidden] { display: none; }
 .blog-page-btn {
