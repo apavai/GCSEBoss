@@ -976,6 +976,7 @@ main.blog-index .lede {
 
 .blog-topics {
   margin-bottom: 16px;
+  padding: 0;
   border-radius: 10px;
   overflow: hidden;
 }
