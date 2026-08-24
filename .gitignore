@@ -11,3 +11,8 @@ Archive.zip
 02-Marketing/assets/cm_frame_*.png
 02-Marketing/assets/tt_frame_*.png
 02-Marketing/assets/Gemini_Generated_*.png
+
+# Daily Content Agent generated media (large, regenerable, not part of the site)
+02-Marketing/assets/source-*.png
+02-Marketing/social-drafts/
+02-Marketing/approval-pages/
