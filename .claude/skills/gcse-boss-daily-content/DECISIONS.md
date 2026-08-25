@@ -86,6 +86,40 @@ Also note `pinterest_board_id` is the required parameter, NOT `board`. The
 project skill's routing table says `board=$UPLOAD_POST_PINTEREST_BOARD`, which
 the API rejects. Use `UPLOAD_POST_PINTEREST_BOARD_ID` from .env.
 
+**Amended 25 August 2026.** The entry above is incomplete and cost a second
+failed publish. Pinterest has TWO separate text fields with TWO separate limits:
+
+| Field | Param | Limit |
+|---|---|---|
+| Pin title | `title` | 100 characters |
+| Pin description | `description` | 500 characters |
+
+`upload_post_client.post_photo()` maps its `caption` argument to `title`. So
+passing the 485-character description as the caption fails with:
+
+```
+{"success":false,"message":"Pinterest title is too long (485 characters).
+ Maximum allowed is 100."}
+```
+
+The working call is the short pin title as the caption, with the body passed
+separately:
+
+```python
+post_photo("pinterest", img, PIN_TITLE, KEY, USER,
+           description=PIN_DESCRIPTION,
+           pinterest_board_id=os.environ["UPLOAD_POST_PINTEREST_BOARD_ID"],
+           pinterest_link=BLOG_URL)
+```
+
+The parameter is `description`, confirmed against the live API. It is NOT
+`pinterest_description`. Every other platform takes its full caption as `title`,
+so Pinterest is the one exception in the whole routing table.
+
+Because the description budget is 500 characters, do not also spend roughly 50
+of them on an inline blog URL. `pinterest_link` carries the destination and is
+what Pinterest actually follows.
+
 ---
 
 ## Upload-Post returns background jobs, not synchronous results

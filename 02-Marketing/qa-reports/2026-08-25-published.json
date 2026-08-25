@@ -1,0 +1,58 @@
+[
+ {
+  "platform": "facebook",
+  "status": "completed",
+  "success": true,
+  "profile": "GCSEBoss",
+  "url": "https://www.facebook.com/925540653986300_122119986519028243",
+  "post_id": "925540653986300_122119986519028243",
+  "target": "facebook_page_id=925540653986300"
+ },
+ {
+  "platform": "linkedin",
+  "status": "completed",
+  "success": true,
+  "profile": "GCSEBoss",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7497922900742574081/",
+  "post_id": "urn:li:share:7497922900742574081",
+  "target": "target_linkedin_page_id=112469982"
+ },
+ {
+  "platform": "instagram",
+  "status": "completed",
+  "success": true,
+  "profile": "GCSEBoss",
+  "url": "https://www.instagram.com/p/DcdIxBVjBOr/",
+  "post_id": "18089581640312318",
+  "target": "media_type omitted, server defaulted to IMAGE"
+ },
+ {
+  "platform": "x",
+  "status": "completed",
+  "success": true,
+  "profile": "GCSEBoss",
+  "url": "https://x.com/GCSEBoss/status/2092157237351293149",
+  "post_id": "2092157237351293149",
+  "target": "no URL in caption, link in bio"
+ },
+ {
+  "platform": "pinterest",
+  "status": "completed",
+  "success": true,
+  "profile": "GCSEBoss",
+  "url": "https://gcseboss.com/blog/posts/sixth-form-enrolment-day",
+  "post_id": "1122874119628893103",
+  "target": "pinterest_board_id set, pinterest_link set, title 55 chars, description 485 chars",
+  "note": "First attempt rejected HTTP 400, title too long. Retried with pin title as title and body as description."
+ },
+ {
+  "platform": "tiktok",
+  "status": "completed",
+  "success": true,
+  "profile": "GCSEBoss",
+  "url": "Video sent to Inbox (No Public URL)",
+  "post_id": "v_inbox_file~v2.7677872677575575574",
+  "target": "post_mode=MEDIA_UPLOAD",
+  "note": "NOT live. Sits in the TikTok drafts inbox. Ben opens the app, pastes the caption from the social-drafts markdown, publishes."
+ }
+]
