@@ -1,0 +1,176 @@
+{
+ "date": "2026-08-28",
+ "slug": "november-gcse-resit-revision",
+ "blog_url": "https://gcseboss.com/blog/posts/november-gcse-resit-revision",
+ "blog_http": 200,
+ "published": {
+  "instagram": {
+   "live": true,
+   "url": "https://www.instagram.com/p/Dck99_SDD_f/",
+   "post_id": "18007670201974368"
+  },
+  "facebook": {
+   "live": true,
+   "url": "https://www.facebook.com/925540653986300_122120258205028243",
+   "page_id": "925540653986300"
+  },
+  "linkedin": {
+   "live": true,
+   "url": "https://www.linkedin.com/feed/update/urn:li:share:7499025052059729920/",
+   "page_id": "112469982"
+  },
+  "x": {
+   "live": true,
+   "url": "https://x.com/GCSEBoss/status/2093259387271815243"
+  },
+  "pinterest": {
+   "live": true,
+   "post_id": "1122874119629143557",
+   "pinterest_link": "https://gcseboss.com/blog/posts/november-gcse-resit-revision"
+  },
+  "tiktok": {
+   "live": false,
+   "state": "in TikTok inbox/drafts",
+   "platform_post_id": "v_inbox_file~v2.7679001055954225174",
+   "action_required": "Ben pastes the TikTok caption from social-drafts in the app and publishes"
+  }
+ },
+ "identity_lock": "all six routed to profile=GCSEBoss. FB Page 925540653986300, LI Company Page 112469982.",
+ "ai_labelling": "is_ai_generated / made_with_ai NOT set on any platform, per DECISIONS.md 24 Aug 2026.",
+ "raw": {
+  "tiktok": {
+   "success": true,
+   "message": "Upload initiated successfully in background. Your synchronous request was taking too long and has been durably handed off to the upload worker. Check its status with GET /api/uploadposts/status?request_id=951847f6f87f495593b0923bac9ad5a1. Docs: https://docs.upload-post.com/api/upload-status",
+   "request_id": "951847f6f87f495593b0923bac9ad5a1",
+   "total_platforms": 1,
+   "job_id": "e2c2114b21924840a70ee67f44ff7ccb"
+  },
+  "instagram": {
+   "success": true,
+   "results": {
+    "instagram": {
+     "success": true,
+     "post_id": "18007670201974368",
+     "url": "https://www.instagram.com/p/Dck99_SDD_f/",
+     "media_type": "IMAGE",
+     "photos_were_processed": null,
+     "changes_per_image": [
+      []
+     ],
+     "status": "completed",
+     "attempts": 1
+    }
+   },
+   "usage": {
+    "count": 193,
+    "limit": -1,
+    "last_reset": "2026-08-03T11:53:36.822319"
+   },
+   "request_id": "d5ae5b96193142b98ba1b1ac0f56a6bf",
+   "job_id": "4143c049cefd4bfa84c9972a1e35403f",
+   "status": "completed"
+  },
+  "facebook": {
+   "success": true,
+   "results": {
+    "facebook": {
+     "success": true,
+     "post_id": "925540653986300_122120258205028243",
+     "url": "https://www.facebook.com/925540653986300_122120258205028243",
+     "media_type": "POSTS",
+     "facebook_page_id": "925540653986300",
+     "photos_were_processed": null,
+     "changes_per_image": [
+      []
+     ],
+     "status": "completed",
+     "attempts": 1
+    }
+   },
+   "usage": {
+    "count": 194,
+    "limit": -1,
+    "last_reset": "2026-08-03T11:53:36.822319"
+   },
+   "request_id": "a4448c8702f847908f87d9a42034fd74",
+   "job_id": "abfde22fd024485aad4a9c5c1b6ebc6b",
+   "status": "completed"
+  },
+  "linkedin": {
+   "success": true,
+   "results": {
+    "linkedin": {
+     "success": true,
+     "image_urns": [
+      "urn:li:image:D4E10AQHVgpjeDAYDhw"
+     ],
+     "post_id": "urn:li:share:7499025052059729920",
+     "url": "https://www.linkedin.com/feed/update/urn:li:share:7499025052059729920/",
+     "target_linkedin_page_id": "112469982",
+     "photos_were_processed": null,
+     "changes_per_image": [
+      []
+     ],
+     "status": "completed",
+     "attempts": 1
+    }
+   },
+   "usage": {
+    "count": 195,
+    "limit": -1,
+    "last_reset": "2026-08-03T11:53:36.822319"
+   },
+   "request_id": "e28275aead9a4fc4bac115709a564d2b",
+   "job_id": "17417121643146fe9476aae254100522",
+   "status": "completed"
+  },
+  "x": {
+   "success": true,
+   "results": {
+    "x": {
+     "success": true,
+     "post_id": "2093259387271815243",
+     "url": "https://x.com/GCSEBoss/status/2093259387271815243",
+     "photos_were_processed": null,
+     "changes_per_image": [
+      []
+     ],
+     "status": "completed",
+     "attempts": 1
+    }
+   },
+   "usage": {
+    "count": 196,
+    "limit": -1,
+    "last_reset": "2026-08-03T11:53:36.822319"
+   },
+   "request_id": "d82cd54c944f476996041bb2e9964dad",
+   "job_id": "bf502a783a3d4f7d99ad398d96a4186a",
+   "status": "completed"
+  },
+  "pinterest": {
+   "success": true,
+   "results": {
+    "pinterest": {
+     "success": true,
+     "post_id": "1122874119629143557",
+     "url": "https://gcseboss.com/blog/posts/november-gcse-resit-revision",
+     "photos_were_processed": false,
+     "changes_per_image": [
+      []
+     ],
+     "status": "completed",
+     "attempts": 1
+    }
+   },
+   "usage": {
+    "count": 197,
+    "limit": -1,
+    "last_reset": "2026-08-03T11:53:36.822319"
+   },
+   "request_id": "9d5999b9f1e3462681c4759594f8e4ba",
+   "job_id": "507e91087c7c43f5b8de50d8ac442a89",
+   "status": "completed"
+  }
+ }
+}
