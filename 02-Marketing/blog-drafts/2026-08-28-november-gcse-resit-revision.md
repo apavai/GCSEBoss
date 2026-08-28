@@ -10,13 +10,15 @@
 
 - Live URL: https://gcseboss.com/blog/posts/november-gcse-resit-revision
 
+- Dates verified 28 Aug 2026: series 2 to 11 November 2026, entry deadline 4 October 2026, results 14 January 2027.
+
 
 
 _You have got about ten weeks. That is more than it sounds, and the reason it is more than it sounds is that you are not starting from nothing this time._
 
 
 
-The papers sit in early November, which means November GCSE resit revision starts roughly now if you want it spread out instead of crammed into half term. A lot of the advice out there is just standard revision guidance with the word "resit" added on top, and that is the bit worth fixing, because a resit is a genuinely different job from the first time round.
+The papers sit between 2 and 11 November, which means November GCSE resit revision starts roughly now if you want it spread out instead of crammed into half term. A lot of the advice out there is just standard revision guidance with the word "resit" added on top, and that is the bit worth fixing, because a resit is a genuinely different job from the first time round.
 
 Here is what the ten weeks should contain. It assumes maths, English Language or both, since those are the two papers almost everybody is back for.
 
@@ -34,29 +36,29 @@ So the whole plan below is built backwards from one question: what exactly went 
 
 - Entry deadline, around 4 October 2026. Centres set their own internal cut-off and it is often earlier, so ask your school, college or exam centre this week instead of taking a date off the internet. If you have left school, you enter through a centre that accepts private candidates, and those deadlines move too.
 
-- The papers, in the first half of November 2026. Your centre will confirm which day each one falls on. Results come back in January 2027.
+- The papers, 2 to 11 November 2026. That is the JCQ common timetable window. In practice English Language usually sits on the 3rd and the 5th and maths on the 4th, the 6th and the 9th, so somebody doing both has five papers across five working days. Take your actual dates from the timetable your centre issues. Results come back on 14 January 2027.
 
 Being entered is the actual first task. Everything below assumes that is sorted. If you are still not sure whether you have to resit at all, or how the sitting works, our guide to November GCSE resits covers the eligibility and the mechanics.
 
 
 ## Weeks one and two: find the gaps, do not fill them yet
 
-Two weeks of diagnosis feels slow. It is the highest value fortnight of the ten.
+Two weeks of diagnosis feels slow. It is the highest value fortnight you have.
 
-Get hold of your paper breakdown if your school will share it, and sit one full past paper cold, without notes, timed properly. Then go through it question by question and sort every mark you dropped into one of three piles: I never knew this, I knew this and could not do it under pressure, and I knew this and lost the marks on the wording or the working.
+Sit one full past paper cold, without notes, timed properly. Then go through it question by question and sort every mark you dropped into three piles: I never knew this, I knew this and could not do it under pressure, and I knew this and lost the marks on the wording.
 
-Those three piles get completely different treatment, and the reason most resit plans stall is that they treat all three as "revise harder". Pile one needs teaching. Pile two needs volume and timing. Pile three needs about twenty minutes of technique and then nothing else at all.
+Those piles get completely different treatment, and the reason most resit plans stall is that they treat all three as "revise harder". Pile one needs teaching. Pile two needs volume and timing. Pile three needs about twenty minutes of technique and then nothing else.
 
 If your list of weak spots is currently more of a vague feeling, this piece on finding your actual weak areas will get you a real one in an afternoon.
 
 
 ## Weeks three to six: the fixing block
 
-This is the long middle and it is where the work happens. Four weeks, pile one first, because those topics need explaining before they can be practised.
+The long middle, and where the work happens. Four weeks, pile one first, because those topics need explaining before they can be practised.
 
-For maths, that usually means a short list of topics and not the whole spec. Ratio, algebra rearranging, standard form, angles and circle rules, and anything involving a graph tend to be where the marks sit for people retaking. Formula sheets are staying in place for the current specifications, so learn what is on the sheet and stop memorising it. Work the topic until you can do a question from a blank page, not until you can follow a worked solution and nod.
+For maths, that usually means a short list of topics and not the whole spec. Ratio, rearranging algebra, standard form, circle rules and anything involving a graph tend to be where the marks sit for people retaking. Formula sheets are staying in place for the current specifications, so learn what is on the sheet and stop memorising it. Work each topic until you can do a question from a blank page.
 
-For English Language, the fixing block is narrower than people expect, because the paper rewards a repeatable method more than it rewards knowledge. Nail one structure for each question type, then run the same structure at four different texts. Our Paper 2 breakdown is a reasonable place to take that method from.
+For English Language the block is narrower than people expect, because the paper rewards a repeatable method more than it rewards knowledge. Nail one structure per question type, then run it at four different texts. Our Paper 2 breakdown is a reasonable place to take that method from.
 
 Keep old topics alive while you do this. Fifteen minutes of retrieval on something you fixed a fortnight ago beats an hour of new content, and it is the difference between knowing it in week four and knowing it in November. If you want a system rather than a vibe, the spaced repetition schedule is the short version.
 
@@ -70,7 +72,7 @@ This block is also where you fix pacing, which is the single most common reason 
 
 ## Weeks nine and ten: taper
 
-No new topics after week eight. It will feel wrong. Do it anyway, because anything learned in the final fortnight is the least secure thing in your head and it displaces the things you actually know.
+No new topics after week eight. It will feel wrong. Do it anyway, because anything learned in the final fortnight is the least secure thing in your head and it displaces what you already know.
 
 Short sessions, past questions you have already done, and your own list of the errors you keep repeating. The last week is maintenance, not acquisition. Sleep matters more than one extra hour, and the exam week piece covers that properly.
 
