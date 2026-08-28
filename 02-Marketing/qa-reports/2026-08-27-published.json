@@ -1,0 +1,187 @@
+{
+  "date": "2026-08-27",
+  "slug": "how-to-support-your-child-in-year-11",
+  "published_at": "2026-08-27T07:52:16.354229Z",
+  "blog_url": "https://gcseboss.com/blog/posts/how-to-support-your-child-in-year-11",
+  "profile": "GCSEBoss",
+  "ai_label_set": false,
+  "photos": {
+    "instagram": {
+      "success": true,
+      "results": {
+        "instagram": {
+          "success": true,
+          "post_id": "18116253841888719",
+          "url": "https://www.instagram.com/p/DciSj4bDDyY/",
+          "media_type": "IMAGE",
+          "photos_were_processed": null,
+          "changes_per_image": [
+            []
+          ],
+          "status": "completed",
+          "attempts": 1
+        }
+      },
+      "usage": {
+        "count": 182,
+        "limit": -1,
+        "last_reset": "2026-08-03T11:53:36.822319"
+      },
+      "request_id": "43cff7ee8cd2456ca7da9d4051689520",
+      "job_id": "7113c29543474433aba7a249048e0e25",
+      "status": "completed"
+    },
+    "facebook": {
+      "success": true,
+      "results": {
+        "facebook": {
+          "success": true,
+          "post_id": "925540653986300_122120197893028243",
+          "url": "https://www.facebook.com/925540653986300_122120197893028243",
+          "media_type": "POSTS",
+          "facebook_page_id": "925540653986300",
+          "photos_were_processed": null,
+          "changes_per_image": [
+            []
+          ],
+          "status": "completed",
+          "attempts": 1
+        }
+      },
+      "usage": {
+        "count": 183,
+        "limit": -1,
+        "last_reset": "2026-08-03T11:53:36.822319"
+      },
+      "request_id": "ec5f4c6e4bb44e398bc77b922e709dd7",
+      "job_id": "0e5cbbeffebb4edda6f72ac5fa971def",
+      "status": "completed"
+    },
+    "linkedin": {
+      "success": true,
+      "results": {
+        "linkedin": {
+          "success": true,
+          "image_urns": [
+            "urn:li:image:D4E10AQH91fXVQihCPA"
+          ],
+          "post_id": "urn:li:share:7498648112492642305",
+          "url": "https://www.linkedin.com/feed/update/urn:li:share:7498648112492642305/",
+          "target_linkedin_page_id": "112469982",
+          "photos_were_processed": null,
+          "changes_per_image": [
+            []
+          ],
+          "status": "completed",
+          "attempts": 1
+        }
+      },
+      "usage": {
+        "count": 184,
+        "limit": -1,
+        "last_reset": "2026-08-03T11:53:36.822319"
+      },
+      "request_id": "699638bb40ee4270800dc9f902817dfc",
+      "job_id": "a002c0bf0d1d4ac0ae1a0930bca6245f",
+      "status": "completed"
+    },
+    "x": {
+      "success": true,
+      "results": {
+        "x": {
+          "success": true,
+          "post_id": "2092882446257619058",
+          "url": "https://x.com/GCSEBoss/status/2092882446257619058",
+          "photos_were_processed": null,
+          "changes_per_image": [
+            []
+          ],
+          "status": "completed",
+          "attempts": 1
+        }
+      },
+      "usage": {
+        "count": 185,
+        "limit": -1,
+        "last_reset": "2026-08-03T11:53:36.822319"
+      },
+      "request_id": "3c20d1f7b6604ccdbacbe0db6062094e",
+      "job_id": "66dd7c1ae7f240db93b3128057e92238",
+      "status": "completed"
+    },
+    "pinterest": {
+      "success": true,
+      "results": {
+        "pinterest": {
+          "success": true,
+          "post_id": "1122874119629058693",
+          "url": "https://gcseboss.com/blog/posts/how-to-support-your-child-in-year-11",
+          "photos_were_processed": false,
+          "changes_per_image": [
+            []
+          ],
+          "status": "completed",
+          "attempts": 1
+        }
+      },
+      "usage": {
+        "count": 186,
+        "limit": -1,
+        "last_reset": "2026-08-03T11:53:36.822319"
+      },
+      "request_id": "95d96b4ea6744e918c07fc3bcea6e297",
+      "job_id": "2df61dc78e4643ec8840a721015e67c7",
+      "status": "completed"
+    }
+  },
+  "tiktok": {
+    "status": "completed",
+    "completed": 1,
+    "total": 1,
+    "results": [
+      {
+        "user_email": "hi@apavai.com",
+        "profile_username": "GCSEBoss",
+        "platform": "tiktok",
+        "media_type": "video",
+        "upload_timestamp": {
+          "$date": "2026-08-27T07:51:56.110Z"
+        },
+        "success": true,
+        "platform_post_id": "v_inbox_file~v2.7678615522535098390",
+        "post_url": "Video sent to Inbox (No Public URL)",
+        "error_message": null,
+        "error_signature": null,
+        "error_code": null,
+        "failure_stage": null,
+        "media_size_bytes": 879358,
+        "post_title": "Year 11 starts next week and someone in your house is going to bring it up this weekend. Get in first.\n\nThree things that make the next four months easier. None of them is a revision timetable you will abandon by Tuesday.\n\n1. Find out when your mocks are. November or December for most schools. Ask in the first week, because a lot of places use mock grades for sixth form predictions and nobody tells you that part.\n\n2. Agree how your parents get updates. Ten minutes on a Sunday beats being asked every single evening. Offer a version you can live with before one gets decided for you.\n\n3. Sort the phone thing yourself. Charging it in another room from Sunday to Thursday is the version most people actually keep.\n\nThat is the whole weekend job. Full guide for the adults in your life is on the blog, link in bio.\n\n#GCSEBoss #Year11 #GCSE2027 #RevisionTips #GCSEs",
+        "post_caption": "Year 11 starts next week and someone in your house is going to bring it up this weekend. Get in first.\n\nThree things that make the next four months easier. None of them is a revision timetable you will abandon by Tuesday.\n\n1. Find out when your mocks are. November or December for most schools. Ask in the first week, because a lot of places use mock grades for sixth form predictions and nobody tells you that part.\n\n2. Agree how your parents get updates. Ten minutes on a Sunday beats being asked every single evening. Offer a version you can live with before one gets decided for you.\n\n3. Sort the phone thing yourself. Charging it in another room from Sunday to Thursday is the version most people actually keep.\n\nThat is the whole weekend job. Full guide for the adults in your life is on the blog, link in bio.\n\n#GCSEBoss #Year11 #GCSE2027 #RevisionTips #GCSEs",
+        "is_async": true,
+        "dashboard": false,
+        "source": "api",
+        "video_was_transcoded": false,
+        "changes": [],
+        "prevalidation_metadata": {
+          "width": 1080,
+          "height": 1920,
+          "fps": 30.0,
+          "duration": 15.0,
+          "container": "mov,mp4,m4a,3gp,3g2,mj2",
+          "video_codec": "h264",
+          "audio_codec": ""
+        },
+        "target_linkedin_page_id": null,
+        "request_id": "63089fd098da4b4c8e5db2c5fa71cba9",
+        "request_id_logs": "63089fd098da4b4c8e5db2c5fa71cba9",
+        "job_id": "308b352a59eb4fa690165ae15d8342e8",
+        "request_total_platforms": 1
+      }
+    ],
+    "external_id": null,
+    "last_update": {
+      "$date": "2026-08-27T07:51:56.110Z"
+    },
+    "request_id": "63089fd098da4b4c8e5db2c5fa71cba9"
+  }
+}
