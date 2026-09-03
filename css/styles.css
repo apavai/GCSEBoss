@@ -1218,6 +1218,16 @@ main.blog-post {
   line-height: 1.65;
   color: var(--text);
 }
+.blog-post-body ul,
+.blog-post-body ol {
+  margin: 0 0 16px;
+  padding-left: 1.4em;
+}
+.blog-post-body li {
+  margin-bottom: 8px;
+  line-height: 1.65;
+}
+.blog-post-body li:last-child { margin-bottom: 0; }
 .blog-post-body a { color: var(--brand); }
 .blog-post-body a:hover { text-decoration: underline; }
 .blog-post-body strong { font-weight: 600; }
