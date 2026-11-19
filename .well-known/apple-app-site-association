@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["DYQS5N6PL4.com.gcseboss.app"],
+        "components": [
+          {
+            "/": "/link",
+            "?": { "code": "*" },
+            "comment": "Parent invite QR. Opens the app when it is installed."
+          }
+        ]
+      }
+    ]
+  }
+}
