@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GCSE computer science revision for written papers: learn to trace short programs line by line with a trace table, track every variable and check your answer step by step." />
+  <meta property="og:title" content="GCSE Computer Science Revision: Tracing Code Line by Line: GCSE Boss" />
+  <meta property="og:description" content="GCSE computer science revision for written papers: learn to trace short programs line by line with a trace table, track every variable and check your answer step by step." />
+  <link rel="icon" type="image/png" href="/images/logo.png" />
+  <title>GCSE Computer Science Revision: Tracing Code Line by Line: GCSE Boss</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="/" class="brand-mark">
+      <img src="/images/GCSEBossv3.png" alt="GCSE Boss" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="/#features">Features</a></li>
+      <li><a href="/#parents">Parents</a></li>
+      <li><a href="/#pricing">Pricing</a></li>
+      <li><a href="/blog/">Blog</a></li>
+      <li><a href="https://apps.apple.com/gb/app/id6767156614" class="nav-cta" target="_blank" rel="noopener noreferrer">Get the app</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="blog-post">
+  <header class="blog-post-header">
+    <time class="blog-date" datetime="2026-11-23">23 November 2026 · For students</time>
+    <h1>GCSE Computer Science Revision: Tracing Code Line by Line</h1>
+    <p class="blog-post-lede">
+      Tracing code is one of those skills that looks simple until you try it under exam conditions. A short
+      program appears on the page, a question asks what it outputs, and suddenly you are holding five values
+      in your head at once. Good <strong>GCSE computer science revision</strong> turns that juggling act into
+      a calm, written process. Instead of guessing, you track each line, write down every change and let the
+      table do the remembering for you. This guide shows you how to build that habit with short, regular
+      practice.
+    </p>
+  </header>
+
+  <article class="blog-post-body">
+    <p>
+      Mock timing varies from school to school. You might have a computer science mock coming up soon, you
+      might have sat one already, or yours might be after Christmas. The method below works at any point in
+      Year 11.
+    </p>
+
+    <h2>What tracing actually means</h2>
+
+    <p>
+      Tracing means running a program by hand, one line at a time, exactly as the computer would. You do not
+      skip ahead, you do not assume what the code is "meant" to do, and you do not trust your first
+      impression. You follow the instructions as written.
+    </p>
+
+    <p>
+      That last part matters. Many tracing mistakes happen because a student reads the code, decides what it
+      probably does, and writes that answer. The computer never guesses. It does precisely what each line
+      says, even when that is not what the programmer intended. Your job when tracing is to be just as
+      literal.
+    </p>
+
+    <h2>Build a trace table</h2>
+
+    <p>
+      A trace table is a grid that records the value of each variable as the program runs. It is the single
+      most useful tool for this kind of question.
+    </p>
+
+    <p>To set one up:</p>
+
+    <ol>
+      <li>Write a column for each variable in the program.</li>
+      <li>Add a column for any condition you need to check, such as whether a loop should continue.</li>
+      <li>Add a final column for output, so you can see exactly what gets printed and when.</li>
+      <li>Use one new row each time a value changes.</li>
+    </ol>
+
+    <p>
+      Keep the table neat and give yourself plenty of space. Squared paper helps. A cramped table leads to
+      values written in the wrong place, and that is where marks slip away.
+    </p>
+
+    <p>
+      If a question gives you a partly completed trace table, use its layout exactly. The columns are there
+      to guide you.
+    </p>
+
+    <h2>Work through one line at a time</h2>
+
+    <p>
+      Once the table is ready, start at the first line and move slowly.
+    </p>
+
+    <p>For each line, ask yourself three questions:</p>
+
+    <ul>
+      <li>Does this line change a variable? If so, write the new value in a new row.</li>
+      <li>Does this line check a condition? If so, work out whether it is true or false, and note it.</li>
+      <li>Does this line produce output? If so, write exactly what is output in the output column.</li>
+    </ul>
+
+    <p>
+      Then move to the next line the program would actually run. In a loop, that often means jumping back up
+      to the start of the loop. In a selection statement, it means skipping the branch that does not apply.
+    </p>
+
+    <p>
+      Point at each line with your pencil as you go. It feels slow, but it stops your eyes from drifting
+      ahead to where you expect the code to go.
+    </p>
+
+    <h2>Watch out for the common traps</h2>
+
+    <p>
+      A few patterns catch students out again and again. Look out for these when you practise:
+    </p>
+
+    <ul>
+      <li><strong>Off by one.</strong> Check carefully whether a loop runs while a value is less than a limit or less than or equal to it. One extra or missing pass changes the whole answer.</li>
+      <li><strong>Order of updates.</strong> If a line adds to a total and another line increases a counter, the order matters. Trace them in the order they appear.</li>
+      <li><strong>Overwriting values.</strong> When a variable is given a new value, the old one is gone. Cross it out in your head and use only the latest row.</li>
+      <li><strong>Integer division and remainders.</strong> If your course uses operators for whole-number division or remainders, make sure you know exactly what each one returns.</li>
+      <li><strong>Output format.</strong> If the program outputs text and numbers together, copy the output exactly, including spaces where the code adds them.</li>
+    </ul>
+
+    <p>
+      Every course has its own conventions for pseudocode or its chosen programming language. Check your own
+      specification and class notes so you trace using the rules you will actually be tested on. Our guide to
+      <a href="/blog/posts/gcse-revision-your-exam-spec">revising from your exam specification</a>
+      explains how to turn the specification into a checklist.
+    </p>
+
+    <h2>Read the question before you trace</h2>
+
+    <p>
+      Tracing questions are not all the same. Some ask for the final output. Some ask for the value of one
+      variable at a certain point. Some ask you to complete a table, and others ask you to explain what the
+      program does or to spot an error.
+    </p>
+
+    <p>
+      Before you start, underline what the question wants. The command word tells you how much to write.
+      "State" usually needs a short answer, while "explain" needs a reason. Our guide to
+      <a href="/blog/posts/gcse-command-words">GCSE command words</a>
+      covers this in more detail.
+    </p>
+
+    <p>
+      If you are asked to describe the purpose of a program, trace it first with a couple of simple values.
+      Seeing the pattern in your table often makes the purpose obvious.
+    </p>
+
+    <h2>Make GCSE computer science revision a regular tracing habit</h2>
+
+    <p>
+      Tracing is a skill, and skills improve with regular practice rather than one long session. Try this
+      routine twice a week:
+    </p>
+
+    <ol>
+      <li>Pick one short program from your class notes or past practice material.</li>
+      <li>Draw a fresh trace table without looking at any answer.</li>
+      <li>Trace it line by line, saying each step quietly to yourself.</li>
+      <li>Check your final answer against the mark scheme or your teacher's solution.</li>
+      <li>If you went wrong, find the exact row where it happened and write a one-line note about why.</li>
+    </ol>
+
+    <p>
+      That final step is where the learning happens. Over a few weeks your notes will show you which traps
+      you fall into most often, and you can practise those on purpose.
+    </p>
+
+    <h2>Use tracing to check your own code</h2>
+
+    <p>
+      Tracing is not only for exam questions. When you write your own programs in class, trace them before
+      you run them. Predict what will happen, then run the code and compare.
+    </p>
+
+    <p>
+      If the result surprises you, your trace table will show exactly where your thinking and the computer's
+      behaviour went in different directions. That is much faster than changing lines at random and hoping
+      for the best.
+    </p>
+
+    <h2>Timing in the exam</h2>
+
+    <p>
+      Tracing can take longer than you expect, especially with loops. If a question is taking too long, it
+      is fine to leave a clear partial table, move on, and come back. A neat, partly finished table can still
+      show your working. Our guide to
+      <a href="/blog/posts/gcse-exam-timing">GCSE exam timing</a>
+      has more on deciding when to move on.
+    </p>
+
+    <p>
+      After a mock, look back at any tracing questions and note where time went. Our guide on
+      <a href="/blog/posts/after-mock-exams">what to do after mock exams</a>
+      shows how to write a short debrief while it is still fresh.
+    </p>
+
+    <h2>A simple place to start</h2>
+
+    <p>
+      Tonight, find one short program in your notes. Draw a trace table with a column for every variable and
+      one for output. Trace it slowly, one line at a time, then check your answer. That is one session done.
+    </p>
+
+    <p>
+      Repeat it twice a week and tracing will start to feel like a steady, reliable process rather than a
+      guessing game.
+    </p>
+
+    <p>
+      GCSE Boss is an iPhone revision app mapped to 5 UK exam boards and 174 specifications, with 9,000+ spec
+      points, so you can revise the line that is actually on your syllabus once you know which paper you are
+      sitting. Have a look at <a href="/">gcseboss.com</a>.
+    </p>
+
+    <p>
+      GCSE Boss is not affiliated with or endorsed by any exam board. Always check your own specification and follow your teacher's guidance.
+    </p>
+  </article>
+
+  <p class="blog-post-back">
+    <a href="/blog/" class="blog-read-more">← Back to all posts</a>
+  </p>
+
+  <aside class="blog-cta-banner" aria-label="Download GCSE Boss">
+    <p class="blog-cta-heading">Revise the specification you are actually sitting: download GCSE Boss free on the App Store.</p>
+    <a href="https://apps.apple.com/gb/app/id6767156614" class="app-store-badge" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+      <div>
+        <div class="top">Download on the</div>
+        <div class="bottom">App Store</div>
+      </div>
+    </a>
+    <p class="blog-cta-note">Free to download · iPhone only</p>
+  </aside>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="/" class="brand-mark">
+          <img src="/images/GCSEBossv3.png" alt="GCSE Boss" />
+        </a>
+        <p>GCSE revision, built around the actual specification. Available on the App Store.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="/#features">Features</a></li>
+          <li><a href="/#parents">For Parents</a></li>
+          <li><a href="/#pricing">Pricing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/contact">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy-policy">Privacy</a></li>
+          <li><a href="/terms-of-service">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom"></div>
+  </div>
+</footer>
+
+
+<script src="/js/footer.js?v=1.0.0" defer></script>
+</body>
+</html>
